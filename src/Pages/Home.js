@@ -7,9 +7,16 @@ import banner1 from '../images/Banner(1).png';
 import banner2 from '../images/Banner(2).png';
 import banner3 from '../images/Banner(3).png';
 import bild from '../images/bild.png';
-import service from '../images/service.png';
-import './Home.css'
+// import service from '../images/service.png';
+import renoveringspaket from '../images/Spackling.jpg';
+import apartment from '../images/lägenhetMålning.jpg';
+import window2 from '../images/window2.jpg';
+import kitchen from '../images/kitchen.jpg';
+import tak from '../images/takMålning.jpg';
+import spray from '../images/spray.jpg';
+import tapet from '../images/tapetShivan.jpg';
 
+import './Home.css'
 
 class Home extends React.Component{
     renderThumbs
@@ -52,34 +59,32 @@ class Home extends React.Component{
                 <div className='home-services'>
                     <h2 className='service-child'>Våra Tjänster</h2>
                     <div className='service-child'>
-                       <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
-                        <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
+                       <Link to='/'> <img src={renoveringspaket} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Målaressets renoveringspaket</h3>
                     </div>
                     <div className='service-child'>
-                       <Link to='/'> <img src={service} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
-                        <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
+                       <Link to='/vara-tjanster'> <img src={apartment} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Lägenhetsmålning</h3>
                     </div>
                     <div className='service-child'>
-                       <Link to='/'> <img src={service} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
-                        <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
+                       <Link to='/vara-tjanster'> <img src={tapet} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Tapetsering</h3>
                     </div>
                     <div className='service-child'>
-                       <Link to='/'> <img src={service} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
-                        <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
+                       <Link to='/vara-tjanster'> <img src={tak} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Tak Målning</h3>
                     </div>
                     <div className='service-child'>
-                       <Link to='/'> <img src={service} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
-                        <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
+                       <Link to='/vara-tjanster'> <img src={window2} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Fönstermålning</h3>
                     </div>
                     <div className='service-child'>
-                       <Link to='/'> <img src={service} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
-                        <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
+                       <Link to='/vara-tjanster'> <img src={kitchen} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Total renovering</h3>
+                    </div>
+                    <div className='service-child'>
+                       <Link to='/vara-tjanster'> <img src={spray} alt='tjanst-bild'/><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <h3>Sprutmålning</h3>
                     </div>
                     
                 </div>

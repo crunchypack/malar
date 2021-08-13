@@ -10,7 +10,7 @@ function ServiceSection() {
 
       <p>Behöver du rådgivning?</p>
 
-      <p>Kontakta oss för ett kostnadsfritt hembesök</p>
+      <p>Kontakta oss för ett kostnadsfritt besök</p>
       <div className='service-btns' >
         <Link to='/kontakta-oss'><Button variant='outline-light'>
           Kontakta oss

@@ -15,12 +15,14 @@ class Partners extends React.Component{
                 <h2>Våra partners</h2>
                 <div className='partner-images'>
                 <img src={flugger} alt='Flugger logga'/>
+                <img src={ljungdahl} alt='Ljungdalhs Färg logga'/>
+                <img src={colorama} alt='Colorama logga'/>
                 <img src={alcro} alt='Alcro logga'/>
                 <img src={beckers} alt='Beckers logga'/>
                 <img src={caparol} alt='Caparol logga'/>
                 <img src={jotuin} alt='Jotun logga'/>
-                <img src={ljungdahl} alt='Ljungdalhs Färg logga'/>
-                <img src={colorama} alt='Colorama logga'/>
+                
+                
                 <img src={nordsjo} alt='Nordsjö logga'/>
                 
                 </div>

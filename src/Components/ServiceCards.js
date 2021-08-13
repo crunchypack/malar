@@ -2,7 +2,13 @@ import React from 'react';
 import CardItemLink from './CardItemLink';
 import CardItem from './CardItem';
 import './ServiceCard.css';
-import ServiceCard from '../images/ServiceCard.jpg';
+import serviceCard from '../images/ServiceCard.jpg';
+import sprayPaint from '../images/SprayPaint.jpg';
+import rollerPaint from '../images/RollerPaint.jpg';
+import totalRenovering from'../images/TotalRenovering.jpg';
+import tapet from '../images/Tapet.jpg';
+import roof from '../images/roof.jpg';
+import window from '../images/window.jpg';
 function ServiceCards() {
     return (
         <div className='cards'>
@@ -24,7 +30,7 @@ function ServiceCards() {
             <div className='cards_container'>
                 <div className='cards_wrapper'>
                 <CardItemLink 
-                        src={ServiceCard}
+                        src={serviceCard}
                         text='För att förenkla vårt erbjudande har vi delat in våra tjänster i tre olika renoveringspaket gällande pris och finish. Självklart gäller våra riktlinjer för ”Garanterat Hantverk” oavsett vilket paket du beställer.
                         Klicka på bilden för att läsa mer.'
                         label='Renoveringspaket'
@@ -32,18 +38,18 @@ function ServiceCards() {
                         />
                     <ul className='cards_items'>
                         <CardItem
-                        src={ServiceCard}
+                        src={sprayPaint}
                         text='Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. In fringilla
                         convallis felis vel feugiat. Mauris gravida elit facilisis,
                         cursus ante ac, accumsan enim. Mauris ut odio fringilla,
                         dapibus dui quis, tristique sapien. Etiam a vestibulum libero,
                         eget mattis nisl. Vestibulum tincidunt aliquet vestibulum.'
-                        label='Utvändig Målning'
+                        label='Sprutmålning'
                         path='/vara-tjanster'
                         />
                          <CardItem
-                        src={ServiceCard}
+                        src={rollerPaint}
                         text="Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. In fringilla
                         convallis felis vel feugiat. Mauris gravida elit facilisis,
@@ -55,7 +61,7 @@ function ServiceCards() {
                     </ul>
                     <ul className='cards_items'>
                         <CardItem 
-                        src={ServiceCard}
+                        src={tapet}
                         text='Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. In fringilla
                         convallis felis vel feugiat. Mauris gravida elit facilisis,
@@ -65,7 +71,7 @@ function ServiceCards() {
                         label='Tapetsering'
                         />
                          <CardItem
-                        src={ServiceCard}
+                        src={roof}
                         text='Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. In fringilla
                         convallis felis vel feugiat. Mauris gravida elit facilisis,
@@ -77,7 +83,7 @@ function ServiceCards() {
                         </ul>
                         <ul className='cards_items'>
                         <CardItem
-                        src={ServiceCard}
+                        src={totalRenovering}
                         text='Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. In fringilla
                         convallis felis vel feugiat. Mauris gravida elit facilisis,
@@ -87,14 +93,14 @@ function ServiceCards() {
                         label='Total Renoverig'
                         />
                          <CardItem
-                        src={ServiceCard}
+                        src={window}
                         text='Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit. In fringilla
                         convallis felis vel feugiat. Mauris gravida elit facilisis,
                         cursus ante ac, accumsan enim. Mauris ut odio fringilla,
                         dapibus dui quis, tristique sapien. Etiam a vestibulum libero,
                         eget mattis nisl. Vestibulum tincidunt aliquet vestibulum.'
-                        label='Tvätt av hus och fasader'
+                        label='Fönster målning'
                         />
                         </ul>
                 </div>
