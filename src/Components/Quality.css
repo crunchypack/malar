@@ -1,0 +1,53 @@
+/* .top-banner{
+    width: 90%;
+    position: relative;
+}
+.nodj{
+    width: 30%;
+    display: inline;
+    float: left;
+}
+.nojd img{
+    width: 15%;
+}
+.banner-img{
+    float: right;
+}
+
+ */
+
+.banner-img img{
+    width: 100%;
+}
+.nojdkund img{
+    width: 40%;
+    display: block;
+    margin:40% auto 0;
+}
+.box{
+    text-align: left;
+    width: 25%;
+    
+    padding-top: 3% ;
+    background-color: aliceblue;
+}
+.box p{
+    text-align: left;
+}
+.infoQ{
+    border: 1px solid black;
+    padding: 1.5%;
+}
+p{
+    text-align: left;
+}
+.mainQ{
+    margin-top: 5%;
+}
+.mainQimg{
+    width: 100%;
+}
+.mainQ .row{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}

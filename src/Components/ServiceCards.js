@@ -5,7 +5,7 @@ import './ServiceCard.css';
 import ServiceCard from '../images/ServiceCard.jpg';
 function ServiceCards() {
     return (
-        <div className='cards'>
+        <div className='cards1'>
              <h1>
             Våra tjänster</h1>  
             <p>Lorem ipsum dolor sit amet, 
@@ -21,8 +21,8 @@ function ServiceCards() {
                         eget mattis nisl. Vestibulum tincidunt aliquet vestibulum.
                 </p>
             
-            <div className='cards_container'>
-                <div className='cards_wrapper'>
+            <div className='cards_container1'>
+                <div className='cards_wrapper1'>
                 <CardItemLink 
                         src={ServiceCard}
                         text='För att förenkla vårt erbjudande har vi delat in våra tjänster i tre olika renoveringspaket gällande pris och finish. Självklart gäller våra riktlinjer för ”Garanterat Hantverk” oavsett vilket paket du beställer.
@@ -30,7 +30,7 @@ function ServiceCards() {
                         label='Renoveringspaket'
                         path='/renoveringspaket'
                         />
-                    <ul className='cards_items'>
+                    <ul className='cards_items1'>
                         <CardItem
                         src={ServiceCard}
                         text='Lorem ipsum dolor sit amet, 
@@ -53,7 +53,7 @@ function ServiceCards() {
                         label='Lägenhetsmålning'
                         />
                     </ul>
-                    <ul className='cards_items'>
+                    <ul className='cards_items1'>
                         <CardItem 
                         src={ServiceCard}
                         text='Lorem ipsum dolor sit amet, 
@@ -75,7 +75,7 @@ function ServiceCards() {
                         label='Takmålning'
                         />
                         </ul>
-                        <ul className='cards_items'>
+                        <ul className='cards_items1'>
                         <CardItem
                         src={ServiceCard}
                         text='Lorem ipsum dolor sit amet, 

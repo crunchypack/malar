@@ -1,4 +1,4 @@
-.cards {
+.cards1 {
   padding: 4rem;
   background: #fff;
 }
@@ -13,7 +13,7 @@ p{
   padding-top: 25px; 
 
 }
-.cards_container {
+.cards_container1 {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -22,23 +22,23 @@ p{
   margin: 0 auto;
 }
 
-.cards_wrapper {
+.cards_wrapper1 {
   position: relative;
   margin: 50px 0 45px;
 }
 
-.cards_items {
+.cards_items1 {
   margin-bottom: 24px;
 }
 
-.cards_item {
+.cards_item1 {
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
 }
 
-.cards_item_link {
+.cards_item_link1 {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -50,7 +50,7 @@ p{
   text-decoration: none;
 }
 
-.cards_item_pic-wrap {
+.cards_item_pic-wrap1 {
   position: relative;
   width: 100%;
   padding-top: 67%;
@@ -62,7 +62,7 @@ p{
   animation-duration: 2s;
 }
 
-.cards_item_pic-wrap::after {
+.cards_item_pic-wrap1::after {
   background: linear-gradient(90deg, rgb(146, 10, 10) 0%, rgb(206, 149, 149) 100%); 
   content: attr(data-category);
   position: absolute;
@@ -76,7 +76,7 @@ p{
   box-sizing: border-box;
 }
 
-.cards_item_img {
+.cards_item_img1 {
   position: absolute;
   top: 0;
   right: 0;
@@ -91,34 +91,34 @@ p{
   transition: all 0.2s linear;
 }
 
-.cards_item_img:hover {
+.cards_item_img1:hover {
   transform: scale(1.1);
 }
 
-.cards_item_info {
+.cards_item_info1 {
   padding: 20px 30px 30px;
 }
 
-.cards_item_text {
+.cards_item_text1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
 }
 
 @media only screen and (min-width: 1200px) {
-  .content_blog_container {
+  .content_blog_container1 {
     width: 84%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards_items {
+  .cards_items1 {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .cards_item {
+  .cards_item1 {
     margin-bottom: 2rem;
   }
 }

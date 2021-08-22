@@ -8,7 +8,7 @@ video {
   }
   
   
-  .service-container {
+  .service-container1 {
     background: url('../images/ServiceCard.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
@@ -21,13 +21,13 @@ video {
     
   }
 
-  .service-container > h1 {
+  .service-container1 > h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
   }
   
-  .service-container > p {
+  .service-container1 > p {
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
@@ -36,11 +36,11 @@ video {
       font-weight: bolder;
   }
   
-  .service-btns {
+  .service-btns1 {
     margin-top: 32px;
   }
   
-  .service-btns .btn {
+  .service-btns1 .btn {
     margin: 6px;
   }
   
@@ -49,19 +49,19 @@ video {
   }
   
   @media screen and (max-width: 960px) {
-    .service-container > h1 {
+    .service-container1 > h1 {
       font-size: 70px;
       margin-top: -150px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .service-container > h1 {
+    .service-container1 > h1 {
       font-size: 50px;
       margin-top: -100px;
     }
   
-    .service-container > p {
+    .service-container1 > p {
       font-size: 30px;
     }
   

@@ -8,10 +8,12 @@ import Contact from "./Pages/Contact";
 import Services from "./Pages/Services";
 import Packages from "./Pages/Packages";
 import ScrollToTop from "./Components/ScrollToTop";
+import QualityAndEnv from "./Pages/QualityAndEnv";
+import AboutUs from "./Pages/AboutUs";
 
 function App() {
   return (
-    <div id="container">
+    <div >
       <BrowserRouter>
       <ScrollToTop/>
         <Navbar />
@@ -20,6 +22,8 @@ function App() {
           <Route path="/kontakta-oss" component={Contact} />
           <Route path="/vara-tjanster" component={Services} />
           <Route path="/renoveringspaket" component={Packages} />
+          <Route path="/kvalitet-miljo" component={QualityAndEnv} />
+          <Route path="/om-oss" component={AboutUs} />
         
         <Partners />
         <Footer></Footer>

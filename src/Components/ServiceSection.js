@@ -6,12 +6,12 @@ import './ServiceSection.css';
 import { Link } from 'react-router-dom';
 function ServiceSection() {
   return (
-    <div className='service-container'>
+    <div className='service-container1'>
 
       <p>Behöver du rådgivning?</p>
 
       <p>Kontakta oss för ett kostnadsfritt hembesök</p>
-      <div className='service-btns' >
+      <div className='service-btns1' >
         <Link to='/kontakta-oss'><Button variant='outline-light'>
           Kontakta oss
         </Button></Link>
