@@ -7,7 +7,7 @@ class ContactForm extends React.Component{
         return(
             <React.Fragment>
                 
-            <Form>
+            <Form className="shadow-none">
             <h2> Kontakta Oss</h2>
 
                 <Form.Text className='text-muted'>Du når oss på telefon, mail eller genom att fylla i vårt formulär nedan. Vi återkommer till dig så snart vi kan!</Form.Text>

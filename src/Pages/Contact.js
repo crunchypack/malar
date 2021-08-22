@@ -16,6 +16,7 @@ class Contact extends React.Component {
                 <Row>
                     <Col><ContactForm /></Col>
                 </Row>
+                <Row><Col> <h3>Vårt team </h3></Col></Row>
                 <Row>
                     <Col><ContactCard img={obama} name='Johan Leif Göransson' text = 'VD 'contact='Telefon:031123456'/></Col>
                     <Col><ContactCard img={biden} name='Fredrik Eriksson ' text = 'Vice VD 'contact='Telefon:031123456'/></Col>

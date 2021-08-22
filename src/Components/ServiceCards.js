@@ -28,7 +28,7 @@ function ServiceCards() {
                         text='För att förenkla vårt erbjudande har vi delat in våra tjänster i tre olika renoveringspaket gällande pris och finish. Självklart gäller våra riktlinjer för ”Garanterat Hantverk” oavsett vilket paket du beställer.
                         Klicka på bilden för att läsa mer.'
                         label='Renoveringspaket'
-                        path='/vara-tjanster'
+                        path='/renoveringspaket'
                         />
                     <ul className='cards_items'>
                         <CardItem
