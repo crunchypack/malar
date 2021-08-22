@@ -6,7 +6,7 @@
 /* Partners*/
 #partner-banner{
     margin: 0 auto;
-    background:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(184, 71, 71) 100%); 
+    background:linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%); 
     padding: 2%;
     text-align: center;
 }
@@ -18,11 +18,13 @@
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around; 
+
     
 }
 .partner-images img{
+height: 70px;
     width: 6%;
-margin-left: 100px;
+margin-left: 70px;
 }
 
 
@@ -119,7 +121,6 @@ a{
 }
 
 * {
-
     box-sizing: border-box;
     margin: 0;
     padding: 0;

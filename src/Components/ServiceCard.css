@@ -63,7 +63,7 @@ p{
 }
 
 .cards_item_pic-wrap::after {
-  background: linear-gradient(90deg, rgb(146, 10, 10) 0%, rgb(206, 149, 149) 100%); 
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%); 
   content: attr(data-category);
   position: absolute;
   bottom: 0;
