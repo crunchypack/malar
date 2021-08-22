@@ -1,0 +1,21 @@
+.IconContainer:hover .renovIcon{
+    animation: fa-spin .3s forwards linear;
+    
+    cursor: pointer;
+    
+}
+@keyframes fa-spin{
+    0%{
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg)}
+        100%{
+            -webkit-transform:rotate(20deg);
+            transform:rotate(20deg)
+        }
+    }
+.IconContainer{
+    text-align: center;
+}
+.listGroup{
+    min-height: 45vh;
+}

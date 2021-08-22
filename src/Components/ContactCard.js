@@ -2,10 +2,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card'
 
 class ContactCard extends React.Component {
-    // constructor(props) {
-    //     super(props);
-        
-    //   }
+    
   render() {
     
     return (

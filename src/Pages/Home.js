@@ -41,17 +41,17 @@ class Home extends React.Component{
                 </div>
                 <div className='home-success'>
                     <div className='success-child'>
-                        <FontAwesomeIcon icon={['fas','star']} size='3x'/>
+                        <FontAwesomeIcon icon={['fas','star']} size='3x' className='animate__animated animate__fadeInLeft'/>
                         <h3>Rubrik</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div className='success-child'>
-                        <FontAwesomeIcon icon='thumbs-up' size='3x'/>
+                        <FontAwesomeIcon icon='thumbs-up' size='3x'className='animate__animated animate__fadeInLeft'/>
                         <h3>Rubrik</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div className='success-child'>
-                        <FontAwesomeIcon icon='check-circle' size='3x'/>
+                        <FontAwesomeIcon icon='check-circle' size='3x' className='animate__animated animate__fadeInLeft'/>
                         <h3>Rubrik</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
