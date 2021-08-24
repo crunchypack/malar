@@ -1,11 +1,20 @@
 import React from 'react';
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 class Banner extends React.Component{
     render(){
         let middle;
+        let button;
         if(this.props.middle){
             middle = <Col className="nojdkund animate__animated animate__fadeIn"><img src={this.props.nojd} alt="Nöjd kund logga" /></Col>;
+        }
+        if(this.props.button){
+          button = (<div className='service-btns1' >
+          <Link to='/kontakta-oss'><Button variant='outline-dark'>
+            Kontakta oss
+          </Button></Link>
+        </div>);
         }
         
         return(
@@ -19,10 +28,11 @@ class Banner extends React.Component{
                     {this.props.text}
                   </p>
                 </div>
+                {button}
               </Col>
               {middle}
               <Col className="banner-img" xs={12} md={8}>
-                <img src={this.props.banner} alt="Banner" />
+                <img src={this.props.banner} alt="Banner" style={{height:'50vh', objectFit:'cover'}}/>
               </Col>
             </Row>
           </Container>
