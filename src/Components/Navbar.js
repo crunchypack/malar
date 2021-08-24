@@ -2,9 +2,9 @@ import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import  Button  from 'react-bootstrap/Button';
 import logo from '../images/logo.png'
-import './Navbar.css';
+import './NavigeringsBar.css';
 
-function Navbar() {
+function NavigeringsBar() {
     const [click, setClick] = useState(false);
     const[button, setButton]= useState(true);
 
@@ -26,9 +26,9 @@ function Navbar() {
     window.addEventListener('resize', showButton);
     return (
         <>
-            <nav  className="navbar">
-                <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <nav  className="navigeringsbar">
+                <div className="navigeringsbar-container">
+                    <Link to="/" className="navigeringsbar-logo" onClick={closeMobileMenu}>
                     <img src={logo} alt='logo'/>
                     </Link>
                     
@@ -74,4 +74,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default NavigeringsBar;
