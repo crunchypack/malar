@@ -46,6 +46,7 @@
   }
   
   .nav-item {
+    margin-top: 25px;
     height: 80px;
   }
   
@@ -59,7 +60,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid rgb(255, 255, 255);
     transition: all 0.2s ease-out;
   }
   

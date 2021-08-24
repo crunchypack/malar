@@ -24,12 +24,12 @@ class Quality extends React.Component {
               </p>
             </Col>
             <Col>
-              <img src={pexels}  className='mainQimg'/>
+              <img src={pexels}  className='mainQimg' alt='pexels'/>
             </Col>
           </Row>
           <Row>
             <Col>
-              <img src={pexels}  className='mainQimg'/>
+              <img src={pexels}  className='mainQimg' alt='pexels'/>
             </Col>
             <Col>
               <h2>Miljömärkt målarfärg</h2>

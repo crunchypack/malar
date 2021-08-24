@@ -1,5 +1,4 @@
 import React from 'react';
-import beckers from '../images/beckers.png';
 import alcro from '../images/alcro.svg';
 import caparol from  '../images/caparol.png';
 import jotuin from '../images/jotun.svg';
@@ -19,8 +18,7 @@ class Partners extends React.Component{
                 <img src={colorama} alt='Colorama logga'/>
                 <img src={alcro} alt='Alcro logga'/>
                 <img src={caparol} alt='Caparol logga'/>
-                <img src={jotuin} alt='Jotun logga'/>
-                
+                <img src={jotuin} alt='Jotun logga'/>               
                 
                 <img src={nordsjo} alt='Nordsjö logga'/>
                 </div>
