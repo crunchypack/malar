@@ -10,7 +10,7 @@ video {
   
   .service-container1 {
     background: url('../images/ServiceCard.jpg') center center/cover no-repeat;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;

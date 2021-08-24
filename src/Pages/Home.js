@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "react-responsive-carousel/lib/js/components/Carousel/index";import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from 'react-router-dom';
 import banner1 from '../images/Banner(1).png';
 import banner2 from '../images/Banner(2).png';
@@ -16,7 +15,7 @@ class Home extends React.Component{
     render(){
         return (
             <div className='home-container'> 
-                <Carousel showThumbs={false} autoPlay>
+                <Carousel showThumbs={false} autoPlay infiniteLoop interval='2000' animationHandler='fade'>
                     <div>
                         <img src={banner1} alt='banner '/>
                     </div>
