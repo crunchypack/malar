@@ -11,7 +11,7 @@ class Partners extends React.Component{
     render(){
         return(
             <section id='partner-banner'>
-                <h2>Våra partners</h2>
+                <h2>Våra samarbetspartners</h2>
                 <div className='partner-images'>
                 <img src={flugger} alt='Flugger logga'/>
                 <img src={ljungdahl} alt='Ljungdalhs Färg logga'/>

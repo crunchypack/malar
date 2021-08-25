@@ -19,10 +19,10 @@ class Footer extends React.Component{
                     <h4>Kontakt info</h4>
                     <p>
                     <ul>
-                        <li>Telefon <span>031123456</span></li>
-                        <li>Mail <span><a href='mailto:info@fake.com'>info@fake.com</a></span></li>
+                        <li>Telefon: <span>0704-43 94 62</span></li>
+                        <li>Mail <span><a href='mailto:patrik@malaresset.se'>patrik@malaresset.se</a></span></li>
                         <li>Målaresset Göteborg</li>
-                        <li>123 Fake gata</li>
+                        <li>Ekebygatan 19</li>
                         <li>422 54 Göteborg</li>
                     </ul>
                     </p>
