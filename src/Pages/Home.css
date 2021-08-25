@@ -1,6 +1,10 @@
 .home-container{
     width: 100%;
 }
+.home-container img{
+    height: 50vh;
+    
+}
 .home-info, .home-success,.home-services {
    padding: 5%;
    display: flex;
