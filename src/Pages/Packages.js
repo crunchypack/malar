@@ -33,7 +33,7 @@ function Packages() {
           <Row style={{ margin: "2% 0" }}>
             <Col className="py-2">
               <Package
-                title="Basic"
+                title="Brons"
                 cardText={text}
                 lines={basic}
                 icon="thumbs-up"
@@ -43,7 +43,7 @@ function Packages() {
             </Col>
             <Col className="py-2">
               <Package
-                title="Regular"
+                title="Silver"
                 cardText={text}
                 lines={regular}
                 icon="hand-scissors"
@@ -53,7 +53,7 @@ function Packages() {
             </Col>
             <Col className="py-2">
               <Package
-                title="Premium"
+                title="Guld"
                 cardText={text}
                 lines={premium}
                 icon="hand-peace"
