@@ -44,7 +44,7 @@ function NavigeringsBar() {
                         </li>
                          <li className='nav-item'>
                             < Link to='/vara-tjanster' className='nav-links' onClick={closeMobileMenu}>
-                               Våra Tjänster
+                               Tjänster
                             </Link>
                         </li>
                         <li className='nav-item'>
