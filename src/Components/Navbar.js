@@ -47,6 +47,11 @@ function NavigeringsBar() {
                                Våra Tjänster
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            < Link to='/renoveringspaket' className='nav-links' onClick={closeMobileMenu}>
+                               Renoveringspaket
+                            </Link>
+                        </li>
 
 
                         <li className='nav-item'>

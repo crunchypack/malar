@@ -23,6 +23,15 @@ p{
   
 }
 
+.text{
+  background-color: #f79f34;
+  color: black;
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+
+
 .cards_wrapper1 {
   position: relative;
   margin: 50px 0 45px;
@@ -64,7 +73,7 @@ p{
 }
 
 .cards_item_pic-wrap1::after {
-  background: linear-gradient(90deg, rgb(146, 10, 10) 0%, rgb(206, 149, 149) 100%); 
+  background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(0, 0, 0) 100%); 
   content: attr(data-category);
   position: absolute;
   bottom: 0;

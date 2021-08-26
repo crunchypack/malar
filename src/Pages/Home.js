@@ -44,20 +44,20 @@ class Home extends React.Component {
                 </div>
                 <div className='home-success'>
                     <div className='success-child'>
-                       <ul> <FontAwesomeIcon icon={['fas', 'star']} size='3x' className='animate__animated animate__fadeInLeft' /></ul>
+                       {/* <ul> <FontAwesomeIcon icon={['fas', 'star']} size='3x' className='animate__animated animate__fadeInLeft' /></ul> */}
                        <ul><img  src={fastpris} alt='logga' /></ul>
                         <h3>Fast pris</h3>
                         <p>Skicka in en beskrivning på jobbet du vill ha utfört via formuläret längst ner på sidan för att få en kostnadsfri offert.</p>
                     </div>
                     <div className='success-child'>
-                         <ul><FontAwesomeIcon icon='thumbs-up' size='3x' className='animate__animated animate__fadeInLeft' /> 
-                         </ul>
+                         {/* <ul><FontAwesomeIcon icon='thumbs-up' size='3x' className='animate__animated animate__fadeInLeft' /></ul>  */}
+                         
                        <ul> <img  src={nojdkund} alt='logga' /></ul>
                         <h3>100 % Nöjd kund garanti</h3>
                         <p>Vi har lång erfarenhet av målaryrket och utför våra uppdrag med en hög standard. Därför ger vi två års garanti på du är nöjd med utfört arbete.</p>
                     </div>
                     <div className='success-child'>
-                        <ul><FontAwesomeIcon icon='check-circle' size='3x' className='animate__animated animate__fadeInLeft' /></ul>
+                        {/* <ul><FontAwesomeIcon icon='check-circle' size='3x' className='animate__animated animate__fadeInLeft' /></ul> */}
                         <ul><img  src={rotavdrag} alt='logga' /></ul>
                         <h3>Rotavdrag</h3>
                         <p>De tjänster vi erbjuder är giltiga för ROT-avdrag. ROT-avdraget täcker arbetskostnader vid renovering och ombyggnation i ens bostad. Använd ROT-avdraget och betala bara 70% av arbetskostnaden.</p>
@@ -66,35 +66,29 @@ class Home extends React.Component {
                 <div className='home-services'>
                     <h2 className='service-child'>Våra Tjänster</h2>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
+                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         
                         <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
+                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
+                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
+                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
+                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Rubrik</div></div></Link>
+                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus vitae tortor bibendum</p>
                     </div>
 
                 </div>
