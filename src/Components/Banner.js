@@ -11,7 +11,7 @@ class Banner extends React.Component{
         }
         if(this.props.button){
           button = (<div className='service-btns1' >
-          <Link to='/kontakta-oss'><Button variant='outline-dark'>
+          <Link to='/malaresset/kontakta-oss'><Button variant='outline-dark'>
             Kontakta oss
           </Button></Link>
         </div>);

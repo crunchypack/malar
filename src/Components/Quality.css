@@ -38,11 +38,12 @@
     border: 1px solid black;
     padding: 1.5%;
 }
-p{
-    text-align: left;
-}
+
 .mainQ{
     margin-top: 5%;
+}
+.mainQ p{
+    text-align: left;
 }
 .mainQimg{
     width: 100%;

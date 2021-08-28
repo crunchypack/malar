@@ -28,7 +28,7 @@ function ServiceCards() {
                         text='För att förenkla vårt erbjudande har vi delat in våra tjänster i tre olika renoveringspaket gällande pris och finish. Självklart gäller våra riktlinjer för ”Garanterat Hantverk” oavsett vilket paket du beställer.
                         Klicka på bilden för att läsa mer.'
                         label='Renoveringspaket'
-                        path='/renoveringspaket'
+                        path='/malaresset/renoveringspaket'
                         />
                     <ul className='cards_items1'>
                         <CardItem
@@ -40,7 +40,7 @@ function ServiceCards() {
                         dapibus dui quis, tristique sapien. Etiam a vestibulum libero,
                         eget mattis nisl. Vestibulum tincidunt aliquet vestibulum.'
                         label='Utvändig Målning'
-                        path='/vara-tjanster'
+                        path='/malaresset/vara-tjanster'
                         />
                          <CardItem
                         src={ServiceCard}

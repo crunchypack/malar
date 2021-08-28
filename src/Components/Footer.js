@@ -45,7 +45,7 @@ class Footer extends React.Component{
             >
               
               <Form.Control as="textarea" rows={3} placeholder='Ditt meddelande..'/>
-              <Button type="submit" className="mb-2" variant='success'>
+              <Button className="mb-2" variant='success'>
                 Submit
               </Button>
             </Form.Group>
