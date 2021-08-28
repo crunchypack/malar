@@ -65,28 +65,28 @@ class Home extends React.Component {
                 <div className='home-services'>
                     <h2 className='service-child'>Våra Tjänster</h2>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <Link to='/malaresset'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         
                         <h3>Rubrik</h3>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <Link to='/malaresset'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <Link to='/malaresset'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <Link to='/malaresset'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <Link to='/malaresset'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
                     </div>
                     <div className='service-child'>
-                        <Link to='/'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
+                        <Link to='/malaresset'> <img src={service} alt='tjanst-bild' /><div className='service-middle'><div className='text'>Läs mer</div></div></Link>
                         <h3>Rubrik</h3>
                     </div>
 
