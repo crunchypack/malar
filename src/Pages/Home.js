@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Carousel from "react-responsive-carousel/lib/js/components/Carousel/index"; import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Link } from 'react-router-dom';
