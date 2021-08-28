@@ -43,8 +43,13 @@ function NavigeringsBar() {
                             </Link>
                         </li>
                          <li className='nav-item'>
-                            < Link to='/malaresset/vara-tjanster' className='nav-links' onClick={closeMobileMenu}>
-                               Våra Tjänster
+                            < Link to='malaresset/vara-tjanster' className='nav-links' onClick={closeMobileMenu}>
+                               Tjänster
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            < Link to='malaresset/renoveringspaket' className='nav-links' onClick={closeMobileMenu}>
+                               Renoveringspaket
                             </Link>
                         </li>
 
@@ -61,13 +66,15 @@ function NavigeringsBar() {
                         </li> 
                         
                         <li>
-                            <Link to='/malaresset/offert' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/kontakta-oss' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Få Offert
                             </Link>
                         </li>
 
                     </ul>
+                    <Link to='/kontakta-oss'>
                     {button && <Button variant='outline-light'> FÅ OFFERT</Button>}
+                    </Link>
                 </div>
             </nav>
         </>

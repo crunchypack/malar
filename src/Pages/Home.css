@@ -1,6 +1,10 @@
 .home-container{
     width: 100%;
 }
+.home-container img{
+    height: 50vh;
+    
+}
 .home-info, .home-success,.home-services {
    padding: 5%;
    display: flex;
@@ -26,7 +30,10 @@
     text-align: center;
     width: 25%;
 }
-
+.success-child img{
+    height: 100px;
+    rotate: 90%;
+}
 .service-child{
     
     position: relative;

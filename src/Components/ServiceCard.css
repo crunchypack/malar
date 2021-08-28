@@ -20,7 +20,17 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  
 }
+
+.text{
+  background-color: #f79f34;
+  color: black;
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+
 
 .cards_wrapper1 {
   position: relative;
@@ -63,7 +73,7 @@ h1 {
 }
 
 .cards_item_pic-wrap1::after {
-  background: linear-gradient(90deg, rgb(146, 10, 10) 0%, rgb(206, 149, 149) 100%); 
+  background: linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(0, 0, 0) 100%); 
   content: attr(data-category);
   position: absolute;
   bottom: 0;

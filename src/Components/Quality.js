@@ -1,8 +1,9 @@
 import React from "react";
 import "./Quality.css";
 import nojd from "../images/nojdkund.png";
-import banner from "../images/Banner(1).png";
+import gothenburg from "../images/gothenburg.jpg";
 import pexels from '../images/pexels.jpg';
+import env from '../images/env.jpg';
 import { Container} from "react-bootstrap";
 import Banner from "./Banner";
 import InfoMain from "./InfoMain";
@@ -15,10 +16,10 @@ class Quality extends React.Component {
     let title2 ="Miljömärkt målarfärg";
     return (
       <React.Fragment>
-        <Banner title="Vi fokuserar på" mainTitle="Kvalitet och miljo" text="När du anlitar [INSERT NAME], värnar du samtidigt om miljön och får kvalitén på köpet." nojd={nojd} banner={banner} middle={true}/>
+        <Banner title="Vi fokuserar på" mainTitle="Kvalitet och miljö" text="När du anlitar Målaresset, värnar du samtidigt om miljön och får kvalitén på köpet." nojd={nojd} banner={gothenburg} middle={true}/>
        
         <Container className='mainQ'>
-          <InfoMain orderText={{order:1}} orderImg={{order:2}} title={title} text={text} img={pexels}/>
+          <InfoMain orderText={{order:1}} orderImg={{order:2}} title={title} text={text} img={env}/>
           <InfoMain orderText={{order:2}} orderImg={{order:1}} title={title2} text={text2} img={pexels}/>
         </Container>
       </React.Fragment>
