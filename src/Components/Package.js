@@ -11,6 +11,7 @@ import {
 import Modal from "react-modal";
 import "./Packages.css";
 import "animate.css";
+import ace from '../images/Ace.png';
 
 function Package(props) {
   let items = props.lines.map((item, index) => (
@@ -47,14 +48,10 @@ function Package(props) {
   }
   return (
     <React.Fragment>
-      <Card bg={props.variant} text={props.textC}>
+      <Card bg={props.variant} text={props.textC} className="h4">
         <Card.Body>
           <div className="IconContainer">
-            <FontAwesomeIcon
-              icon={props.icon}
-              size="3x"
-              className=" renovIcon"
-            />
+            <img src={ace} alt="ace of spades" className='img-fluid'/>
           </div>
           <Card.Title className="text-center">{props.title}</Card.Title>
           <Card.Text>{props.cardText}</Card.Text>

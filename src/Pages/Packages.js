@@ -51,7 +51,7 @@ function Packages() {
                 cardText={text}
                 lines={basic}
                 icon="thumbs-up"
-                variant="info"
+                variant="dark"
                 textC="white"
               />
             </Col>
@@ -61,7 +61,7 @@ function Packages() {
                 cardText={text}
                 lines={regular}
                 icon="hand-scissors"
-                variant="primary"
+                variant="gradient"
                 textC="white"
               />
             </Col>
@@ -71,7 +71,7 @@ function Packages() {
                 cardText={text}
                 lines={premium}
                 icon="hand-peace"
-                variant="success"
+                variant="dark"
                 textC="white"
               />
               

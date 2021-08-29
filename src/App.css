@@ -85,6 +85,9 @@ a{
 .social img{
     width: 50%;
 }
+.bottom-space{
+    margin-bottom: 30px;
+}
 
 /* Media queries*/
 @media only screen and (max-width: 1739px) {
@@ -128,6 +131,7 @@ a{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
     /* */
   }
   h1,

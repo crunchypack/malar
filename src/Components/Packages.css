@@ -17,5 +17,13 @@
     text-align: center;
 }
 .listGroup{
-    min-height: 20em;
+    min-height: 30em;
+}
+.bg-gradient{
+    /* background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(158, 0, 0) 100%); */
+    background-color: #8b0000!important;
+
+}
+.btn-gradient{
+    color: azure!important;
 }
