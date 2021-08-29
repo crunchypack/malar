@@ -32,10 +32,8 @@
 }
 .success-child img{
     height: 100px;
-    rotate: 90%;
 }
-.service-child{
-    
+.service-child{    
     position: relative;
 }
 .service-child h3{

@@ -5,7 +5,7 @@ import './ServiceCard.css';
 function CardItemLink(props) {
     return (
         <>
-            <li className='cards_item_link1'>
+            <li className='cards_item1'>
                 <Link className='cards_item_link1' to={props.path}>
                     <figure className='cards_item_pic-wrap1' data-category={props.label}>
                         <img src={props.src} alt='Service ' className='cards_item_img1'/>
