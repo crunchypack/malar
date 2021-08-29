@@ -24,14 +24,6 @@ function ServiceCards() {
             <div className='cards_container1'>
                 <div className='cards_wrapper1'>
                     
-                <CardItemLink 
-                        src={ServiceCard}
-                        text='För att förenkla vårt erbjudande har vi delat in våra tjänster i tre olika renoveringspaket gällande pris och finish.
-                         Självklart gäller våra riktlinjer för ”Garanterat Hantverk” oavsett vilket paket du beställer.
-                        Klicka på bilden för att läsa mer.'
-                        label='Renoveringspaket'
-                        path='/malaresset/renoveringspaket'
-                        />
                     <ul className='cards_items1'>
                         <CardItem
                         src={ServiceCard}
