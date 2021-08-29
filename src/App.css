@@ -1,8 +1,8 @@
-
-#container{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+/* #container{
     width: 100%;
     margin: 0 auto;
-}
+} */
 /* Partners*/
 #partner-banner{
     margin: 0 auto;
@@ -127,7 +127,15 @@ a{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5{
+    font-family: 'Montserrat', sans-serif; 
   }
 
   .home,

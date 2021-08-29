@@ -38,12 +38,20 @@
     border: 1px solid black;    
     padding: 1.5%;  
     
+<<<<<<< HEAD
 } */
 p{
     text-align: left;
 }
+=======
+}
+
+>>>>>>> 78840dbb10a8b39006f43200e38e568389ed0c74
 .mainQ{
     margin-top: 5%;
+}
+.mainQ p{
+    text-align: left;
 }
 .mainQimg{
     width: 100%;
