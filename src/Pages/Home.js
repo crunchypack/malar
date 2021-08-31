@@ -90,7 +90,6 @@ class Home extends React.Component {
               <ul>
                <li> Privatkunder</li>
                <li> Byggföretag</li>
-               <li>  Kommuner</li>
                <li> bostadsrättsföreningar</li>
               </ul></b>
             Vi är yrkesmålare med många år i branschen och dokumenterade yrkesbevis.
@@ -192,7 +191,7 @@ class Home extends React.Component {
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Inomhus</h3>
+            <h3>Invändigt</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">

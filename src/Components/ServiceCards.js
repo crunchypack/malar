@@ -3,6 +3,11 @@ import React from 'react';
 import CardItem from './CardItem';
 import './ServiceCard.css';
 import ServiceCard from '../images/ServiceCard.jpg';
+import spray from '../images/spray-paint.jpg';
+import roof from '../images/roof.jpg';
+import wallPaint from '../images/wall-paint.jpg';
+import window from '../images/window.jpg';
+import total from '../images/total.jpg';
 function ServiceCards() {
     return (
         <div className='cards1'>
@@ -26,7 +31,7 @@ function ServiceCards() {
                     
                     <ul className='cards_items1'>
                     <CardItem
-                        src={ServiceCard}
+                        src={total}
                         text='Vi tar gärna totalansvaret över hela renoveringsprojektet, från idé till slutbesiktning.
                         Med vårt breda kontaktnät av entreprenörer inom VVS, el, bygg m.m har vi de förutsättningarna som krävs för att ge dig det bästa resultatet.
                         Med oss som ansvariga över hela projektet blir din roll som beställare enklare, tryggare och mer hanterligt.
@@ -52,7 +57,7 @@ function ServiceCards() {
                     </ul>
                     <ul className='cards_items1'>
                     <CardItem
-                        src={ServiceCard}
+                        src={wallPaint}
                         text="Målaresset tar hand om hela målningsprojektet.
                          Förarbetet är otroligt viktigt och avgörande för slutresultatet, vi är noggranna med att tvätta väggarna med målartvätt för att avlägsna smuts och fett.
                          Innan vi målar är vi noggranna med att spackla och slipar ytorna för att de ska bli jämna och släta.
@@ -67,7 +72,7 @@ function ServiceCards() {
                         label='Tapetsering'
                         />
                         <CardItem
-                        src={ServiceCard}
+                        src={roof}
                         text='Trasiga och slitna tak är en vanlig anledning till fuktskador.
                          Plåttak måste målas om med jämna mellanrum för att undvika rostangrepp.
                          Med rätt underhåll förlänger du livslängden på ditt tak och ökar skyddet mot fuktskador.
@@ -78,21 +83,21 @@ function ServiceCards() {
                         </ul>
                         <ul className='cards_items1'>
                         <CardItem
-                        src={ServiceCard}
-                        text='Fönster är svårt utsatta för temperaturväxlingar i det svenska klimatet och det är viktigt med professionell ordentligt underhåll innan stommen tar skada.
+                        src={window}
+                        text='Fönster är svårt utsatta för temperaturväxlingar i det svenska klimatet och det är viktigt med ordentlig och profesionellt underhåll innan stommen tar skada.
                          Om det finns möjlighet renoverar vi dina fönster i vår verkstad eller så gör vi det på plats.'
                         label='Fönstermålning'
                         />
                         <CardItem
-                        src={ServiceCard}
+                        src={spray}
                         text='Sprutmålning kräver noggrannhet och teknisk kunskap av utföraren.
-                         För att få till fina och släta ytor sprutmålar vi dörrar, paneltak, köksluckor, dörrar m.m. '
+                         För att få till fina och släta ytor sprutmålar vi dörrar, paneltak, köksluckor m.m. '
                         label='Sprutmålning'
                         />
                         <CardItem
                         src={ServiceCard}
                         text='Beskrivning.'
-                        label='Utvändig Målning'
+                        label='X'
                         path='/vara-tjanster'
                         />
                         </ul>
