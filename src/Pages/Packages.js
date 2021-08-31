@@ -31,7 +31,8 @@ function Packages() {
       <React.Fragment>
         <Banner title="Renoveringspaket"
                  mainTitle="Välj bland våra renoveringspaket"
-                  banner={serviceBanner} text='text här'
+                  banner={serviceBanner} text='För att göra det enklare för våra kunder att välja måleritjänst har vi på
+                   Målaresset tagit fram tre olika renoveringspaket där du kan påverka själv vilka behandlingar som ska ingå i arbetet.'
                    nojd={nojd} 
                    Malforetag={maleri} 
                    middle={true}
@@ -39,7 +40,7 @@ function Packages() {
         <Container fluid="sm">
           <Row>
             <Col>
-              <h2>Våra renoveringspaket</h2>
+              <h2>Målaressets renoveringspaket</h2>
             </Col>
           </Row>
 

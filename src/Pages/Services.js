@@ -42,7 +42,7 @@ class Services extends React.Component {
                 <Container fluid="sm">
           <Row>
             <Col>
-              <h2>Våra renoveringspaket</h2>
+              <h2>Målaressets renoveringspaket</h2>
             </Col>
           </Row>
 
