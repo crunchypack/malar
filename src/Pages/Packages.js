@@ -31,10 +31,7 @@ function Packages() {
       <React.Fragment>
         <Banner title="Renoveringspaket"
                  mainTitle="Välj bland våra renoveringspaket"
-                  banner={serviceBanner} text='Målaresset lämnar gärna en offert på önskade arbeten. Klicka på "kontakta oss" för att komma till formuläret,
-                  ange dina kontaktuppgifter och beskriv så utförligt du kan,
-                  dina önskemål, visioner och tankar. 
-                  Vi lovar att återkomma så fort vi kan.'
+                  banner={serviceBanner} text='text här'
                    nojd={nojd} 
                    Malforetag={maleri} 
                    middle={true}

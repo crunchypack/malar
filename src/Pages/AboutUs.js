@@ -105,7 +105,7 @@ class AboutUs extends React.Component {
                 <Card.Img src={mvk} />
                 <Card.Body>
                   <Card.Text>
-                    Samtliga hantverkare i Målaresset har genomfört en branchanpassad utbildning och
+                    Målaressets hantverkare har genomfört en branchanpassad utbildning och
                     är därmed behöriga våtrumsmålare.
                   </Card.Text>
                 </Card.Body>

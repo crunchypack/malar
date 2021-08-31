@@ -19,12 +19,14 @@
 .info-child,.service-child {
     display: inline-block;
     padding: 1%;
+    font-size: 34px;
 }
 .info-child:first-child, .service-child:first-child{
     width: 100%;
 }
 .info-child:not(:first-child),.service-child:not(:first-child){
     flex: 1;
+    font-size: 24px;
 }
 .success-child{
     text-align: center;

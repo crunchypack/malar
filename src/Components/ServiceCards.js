@@ -25,61 +25,75 @@ function ServiceCards() {
                 <div className='cards_wrapper1'>
                     
                     <ul className='cards_items1'>
+                    <CardItem
+                        src={ServiceCard}
+                        text='Vi tar gärna totalansvaret över hela renoveringsprojektet, från idé till slutbesiktning.
+                        Med vårt breda kontaktnät av entreprenörer inom VVS, el, bygg m.m har vi de förutsättningarna som krävs för att ge dig det bästa resultatet.
+                        Med oss som ansvariga över hela projektet blir din roll som beställare enklare, tryggare och mer hanterligt.
+                        Vi sköter projekteringen och samordningen mellan de olika hantverkargrupperna och du får en kontaktperson som förser dig med den information du önskar och behöver.'
+                        label='Totelentrepenad'
+                        />
                         <CardItem
                         src={ServiceCard}
                         text='Målaresset har en gedigen erfarenhet av utomhusmålning.
-                        Vi målar på trä, puts, kalk m.m. Som i alla projekt är underbehandligen viktigast för det slutgiltliga resulatet.
+                        Vi målar på trä, puts, kalk m.m. Som i alla projekt är underbehandligen viktigast för det slutgiltiga resultatet.
                         Vi målar allt från stora bostadsområden, nyproducerade villor till sommarstugor.
-                        Vi hjälper er att ta fram de bästa produkterna för ett långsiktigt resultat..'
-                        label='Utvändig Målning'
+                        Vi hjälper er att ta fram de bästa produkterna för ett långsiktigt resultat.'
+                        label='Fasadmålning'
                         path='/malaresset/vara-tjanster'
                         />
                         <CardItem
                         src={ServiceCard}
-                        text='Beskrivning.'
-                        label='Utvändig Målning'
+                        text='Att tvätta och sköta om sin villas fasad och tak lyfter husets utseende och får området att se trevligare ut.
+                        Dessutom så förlängs fasadens livslängd och slitaget minskar.'
+                        label='Fasadtvätt'
                         path='/vara-tjanster'
-                        />
-                         <CardItem
-                        src={ServiceCard}
-                        text="Beskrivning."
-                        label='Lägenhetsmålning'
                         />
                     </ul>
                     <ul className='cards_items1'>
+                    <CardItem
+                        src={ServiceCard}
+                        text="Målaresset tar hand om hela målningsprojektet.
+                         Förarbetet är otroligt viktigt och avgörande för slutresultatet, vi är noggranna med att tvätta väggarna med målartvätt för att avlägsna smuts och fett.
+                         Innan vi målar är vi noggranna med att spackla och slipar ytorna för att de ska bli jämna och släta.
+                         Vi utför alla våra målningsuppdrag med största noggrannhet och med en hög standard."
+                        label='Lägenhetsmålning'
+                        />
                         <CardItem 
                         src={ServiceCard}
-                        text='Beskrivning.'
+                        text='När det ska tapetseras är det mycket att tänka på för att få ett bra slutresultat.
+                         Grundarbetet är det mest tidskrävande momentet där erfarenhet är av stor betydelse.
+                         Vi sätter upp alla tapeter oavsett pris och design med största omsorg och noggrannhet.'
                         label='Tapetsering'
                         />
                         <CardItem
                         src={ServiceCard}
-                        text='Beskrivning.'
-                        label='Utvändig Målning'
-                        path='/vara-tjanster'
-                        />
-                         <CardItem
-                        src={ServiceCard}
-                        text='Beskrivning.'
+                        text='Trasiga och slitna tak är en vanlig anledning till fuktskador.
+                         Plåttak måste målas om med jämna mellanrum för att undvika rostangrepp.
+                         Med rätt underhåll förlänger du livslängden på ditt tak och ökar skyddet mot fuktskador.
+                         Vi på Målaresset har lång erfarenhet av att utföra både reparationer och målning på alla typer av tak, såväl plåt som betongpannor. '
                         label='Takmålning'
+                        path='/vara-tjanster'
                         />
                         </ul>
                         <ul className='cards_items1'>
                         <CardItem
                         src={ServiceCard}
-                        text='Beskrivning.'
-                        label='Takmålning'
+                        text='Fönster är svårt utsatta för temperaturväxlingar i det svenska klimatet och det är viktigt med professionell ordentligt underhåll innan stommen tar skada.
+                         Om det finns möjlighet renoverar vi dina fönster i vår verkstad eller så gör vi det på plats.'
+                        label='Fönstermålning'
+                        />
+                        <CardItem
+                        src={ServiceCard}
+                        text='Sprutmålning kräver noggrannhet och teknisk kunskap av utföraren.
+                         För att få till fina och släta ytor sprutmålar vi dörrar, paneltak, köksluckor, dörrar m.m. '
+                        label='Sprutmålning'
                         />
                         <CardItem
                         src={ServiceCard}
                         text='Beskrivning.'
                         label='Utvändig Målning'
                         path='/vara-tjanster'
-                        />
-                         <CardItem
-                        src={ServiceCard}
-                        text='Beskrivning.'
-                        label='Tvätt av hus och fasader'
                         />
                         </ul>
                 </div>

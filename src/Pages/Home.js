@@ -83,23 +83,23 @@ class Home extends React.Component {
           </div>
         </Carousel>
         <div className="home-info">
-          <h2 className="info-child">Vi är Målaresset</h2>
+          <h2 className="info-child">Målaresset i Göteborg</h2>
           <p className="info-child">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
-            metus vitae tortor bibendum aliquet. Curabitur mattis imperdiet
-            eleifend. Duis sed tortor erat. Ut odio arcu, iaculis ac magna
-            luctus, suscipit lacinia ante. Maecenas vehicula urna mi. Sed sit
-            amet finibus sapien. In tempor interdum tortor, at tincidunt purus
-            gravida non. Nullam egestas risus id justo ullamcorper pharetra.
-            Nulla facilisi. Aliquam arcu risus, dignissim at urna sit amet,
-            semper finibus ante. Nam laoreet ultrices libero, vitae vestibulum
-            est ultrices quis.{" "}
+            Målaresset är företaget ni anlitar när jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom måleri, plåt, snickeri, totalrenovering m.m. Vi riktar oss till:
+            <b>
+              <ul>
+               <li> Privatkunder</li>
+               <li> Byggföretag</li>
+               <li>  Kommuner</li>
+               <li> bostadsrättsföreningar</li>
+              </ul></b>
+            Vi är yrkesmålare med många år i branschen och dokumenterade yrkesbevis.
+            Oavsett storlek på projekt så har vi som princip att alltid sätta kundens behov i centrum. God kommunikation med våra kunder är vår högsta prioritet då vi vill att våra kunder ska känna sig trygga när de anlitar Målaresset.
           </p>
           <img className="info-child" src={bild} alt="wet paint" />
         </div>
         <div className="home-success">
           <div className="success-child">
-            {/* <ul> <FontAwesomeIcon icon={['fas', 'star']} size='3x' className='animate__animated animate__fadeInLeft' /></ul> */}
             <ul>
               <img src={fastpris} alt="logga" />
             </ul>
@@ -110,10 +110,7 @@ class Home extends React.Component {
             </p>
           </div>
           <div className="success-child">
-            {/* <ul><FontAwesomeIcon icon='thumbs-up' size='3x' className='animate__animated animate__fadeInLeft' /></ul>  */}
-
             <ul>
-              {" "}
               <img src={nojdkund} alt="logga" />
             </ul>
             <h3>100 % Nöjd kund garanti</h3>
@@ -124,7 +121,6 @@ class Home extends React.Component {
             </p>
           </div>
           <div className="success-child">
-            {/* <ul><FontAwesomeIcon icon='check-circle' size='3x' className='animate__animated animate__fadeInLeft' /></ul> */}
             <ul>
               <img src={rotavdrag} alt="logga" />
             </ul>
@@ -181,64 +177,58 @@ class Home extends React.Component {
           <h2 className="service-child">Våra Tjänster</h2>
           <div className="service-child">
             <Link to="/malaresset">
-              {" "}
-              <img src={service} alt="tjanst-bild" />
-              <div className="service-middle">
-                <div className="text">Läs mer</div>
-              </div>
-            </Link>
 
-            <h3>Rubrik</h3>
-          </div>
-          <div className="service-child">
-            <Link to="/malaresset">
-              {" "}
               <img src={service} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Rubrik</h3>
+            <h3>Total Renovering</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              {" "}
               <img src={service} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Rubrik</h3>
+            <h3>Inomhus</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              {" "}
               <img src={service} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Rubrik</h3>
+            <h3>Fasad</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              {" "}
               <img src={service} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Rubrik</h3>
+            <h3>Plåt</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              {" "}
               <img src={service} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Rubrik</h3>
+            <h3>Tapetsering</h3>
+          </div>
+          <div className="service-child">
+            <Link to="/malaresset">
+              <img src={service} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Fönster</h3>
           </div>
         </div>
       </div>
