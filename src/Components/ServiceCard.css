@@ -102,9 +102,8 @@ h1 {
 
 .cards_item_text1 {
   color: #252e48;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 24px;
+  font-size: 20px;
+  /* line-height: 20px; */
 }
 
 @media only screen and (min-width: 1200px) {

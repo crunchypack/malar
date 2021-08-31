@@ -52,7 +52,7 @@ class AboutUs extends React.Component {
                 <Card.Body>
                   <Card.Text>
                     Vi på Målaresset garanterar att alla våra jobb utförs av
-                    kompetenta hantverkare med dokumenterad erfarenhet från
+                    profesionella hantverkare med dokumenterad erfarenhet från
                     branschen och yrkesbevis.
                   </Card.Text>
                 </Card.Body>
@@ -105,9 +105,8 @@ class AboutUs extends React.Component {
                 <Card.Img src={mvk} />
                 <Card.Body>
                   <Card.Text>
-                    Måleriföretagens medlemsföretag omfattas en extra garanti på
-                    två år av utfört måleriarbete. Det betyder att du kan vara
-                    trygg när du köper tjänster från oss.
+                    Samtliga hantverkare i Målaresset har genomfört en branchanpassad utbildning och
+                    är därmed behöriga våtrumsmålare.
                   </Card.Text>
                 </Card.Body>
               </Card>

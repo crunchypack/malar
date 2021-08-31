@@ -48,7 +48,7 @@ function Package(props) {
   }
   return (
     <React.Fragment>
-      <Card bg={props.variant} text={props.textC} className="h4">
+      <Card bg={props.variant} text={props.textC} className="h4 h-100">
         <Card.Body>
           <div className="IconContainer">
             <img src={ace} alt="ace of spades" className='img-fluid'/>

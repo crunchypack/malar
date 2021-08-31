@@ -10,18 +10,20 @@ import Package from '../Components/Package';
 
 class Services extends React.Component {
     render(){
-        let text = "Lorem ipsum signu rato fatzo paint wall minu rata grobus mkes";
-        let basic = [
+      let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
+      let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvara och måla över gamla tapeter som hänger på väggarna.";
+      let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
+        let brons = [
           "Spackling av mindre hål och fogning av springor",
           "Målning av tak och väggar till fullgod täckning",
         ];
-        let regular = [
-          ...basic,
+        let silver = [
+          ...brons,
           "Fogning av vinklar och springor",
           "Målning av lister, karmar, foder",
         ];
-        let premium = [
-          ...regular,
+        let guld = [
+          ...silver,
           "Slipning, grundmålning och fläckspackling",
           "Bredspackling",
           "Priming",
@@ -47,9 +49,9 @@ class Services extends React.Component {
           <Row style={{ margin: "2% 0" }}>
             <Col className="py-2">
               <Package
-                title="Basic"
-                cardText={text}
-                lines={basic}
+                title="Brons"
+                cardText={bronsText}
+                lines={brons}
                 icon="thumbs-up"
                 variant="dark"
                 textC="white"
@@ -57,9 +59,9 @@ class Services extends React.Component {
             </Col>
             <Col className="py-2">
               <Package
-                title="Regular"
-                cardText={text}
-                lines={regular}
+                title="Silver"
+                cardText={silverText}
+                lines={silver}
                 icon="hand-scissors"
                 variant="gradient"
                 textC="white"
@@ -67,9 +69,9 @@ class Services extends React.Component {
             </Col>
             <Col className="py-2">
               <Package
-                title="Premium"
-                cardText={text}
-                lines={premium}
+                title="Guld"
+                cardText={guldText}
+                lines={guld}
                 icon="hand-peace"
                 variant="dark"
                 textC="white"
