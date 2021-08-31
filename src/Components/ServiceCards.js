@@ -8,6 +8,7 @@ import roof from '../images/roof.jpg';
 import wallPaint from '../images/wall-paint.jpg';
 import window from '../images/window.jpg';
 import total from '../images/total.jpg';
+import tapet from '../images/tapet.jpg';
 function ServiceCards() {
     return (
         <div className='cards1'>
@@ -65,7 +66,7 @@ function ServiceCards() {
                         label='Lägenhetsmålning'
                         />
                         <CardItem 
-                        src={ServiceCard}
+                        src={tapet}
                         text='När det ska tapetseras är det mycket att tänka på för att få ett bra slutresultat.
                          Grundarbetet är det mest tidskrävande momentet där erfarenhet är av stor betydelse.
                          Vi sätter upp alla tapeter oavsett pris och design med största omsorg och noggrannhet.'

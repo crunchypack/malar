@@ -182,7 +182,7 @@ class Home extends React.Component {
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Total Renovering</h3>
+            <h3>Totalentrepenad</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">
