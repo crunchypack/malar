@@ -86,12 +86,12 @@ class Home extends React.Component {
           <h2 className="info-child">Målaresset i Göteborg</h2>
           <p className="info-child">
             Målaresset är företaget ni anlitar när jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom måleri, plåt, snickeri, totalrenovering m.m. Vi riktar oss till:
-            <b>
+            <strong>
               <ul>
                <li> Privatkunder</li>
                <li> Byggföretag</li>
                <li> Bostadsrättsföreningar</li>
-              </ul></b>
+              </ul></strong>
             Vi är yrkesmålare med många år i branschen och dokumenterade yrkesbevis.
             Oavsett storlek på projekt så har vi som princip att alltid sätta kundens behov i centrum. God kommunikation med våra kunder är vår högsta prioritet då vi vill att våra kunder ska känna sig trygga när de anlitar Målaresset.
           </p>
@@ -99,9 +99,9 @@ class Home extends React.Component {
         </div>
         <div className="home-success">
           <div className="success-child">
-            <ul>
+            
               <img src={fastpris} alt="logga" />
-            </ul>
+            
             <h3>Fast pris</h3>
             <p>
               Skicka in en beskrivning på jobbet du vill ha utfört via
@@ -109,9 +109,9 @@ class Home extends React.Component {
             </p>
           </div>
           <div className="success-child">
-            <ul>
+            
               <img src={nojdkund} alt="logga" />
-            </ul>
+            
             <h3>100 % Nöjd kund garanti</h3>
             <p>
               Vi har lång erfarenhet av målaryrket och utför våra uppdrag med en
@@ -120,9 +120,9 @@ class Home extends React.Component {
             </p>
           </div>
           <div className="success-child">
-            <ul>
+            
               <img src={rotavdrag} alt="logga" />
-            </ul>
+           
             <h3>Rotavdrag</h3>
             <p>
               De tjänster vi erbjuder är giltiga för ROT-avdrag. ROT-avdraget
