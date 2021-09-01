@@ -20,7 +20,7 @@ class Home extends React.Component {
   renderThumbs;
   render() {
     let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-    let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvara och måla över gamla tapeter som hänger på väggarna.";
+    let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvarna och måla över gamla tapeter som hänger på väggarna.";
     let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
     let brons = [
       "Spackling av mindre hål och fogning av springor",

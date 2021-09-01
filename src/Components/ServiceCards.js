@@ -9,22 +9,21 @@ import wallPaint from '../images/wall-paint.jpg';
 import window from '../images/window.jpg';
 import total from '../images/total.jpg';
 import tapet from '../images/tapet.jpg';
+import floor from '../images/floor.png';
 function ServiceCards() {
     return (
         <div className='cards1'>
              <h1>
             Våra tjänster</h1>  
-            <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. In fringilla
-                        convallis felis vel feugiat. Mauris gravida elit facilisis,
-                        cursus ante ac, accumsan enim. Mauris ut odio fringilla,
-                        dapibus dui quis, tristique sapien. Etiam a vestibulum libero,
-                        eget mattis nisl. Vestibulum tincidunt aliquet vestibulum. ipsum dolor sit amet, 
-                        consectetur adipiscing elit. In fringilla
-                        convallis felis vel feugiat. Mauris gravida elit facilisis,
-                        cursus ante ac, accumsan enim. Mauris ut odio fringilla,
-                        dapibus dui quis, tristique sapien. Etiam a vestibulum libero,
-                        eget mattis nisl. Vestibulum tincidunt aliquet vestibulum.
+            <p>Målaresset i Göteborg är en säker och trygg partner, oavsett storlek på projekt.
+                 Tack vare vår långa erfarenhet i branschen och dokumenterade yrkesbevis håller vi alltid en hög standard på de arbeten vi utför.
+                 Vårt breda nätverk av olika profesionella hantverkargrupper säkerställer att vi kan erbjuda dig en trygg resa från start till slut i ditt projekt.
+                 Vi hjälper dig med allt inom måleri, tapetsering, entreprenad och plåtmålning.
+                 För att förenklar vårt erbjudande till dig som kund har vi tagit fram <b>Målaressets renoveringspaket.</b>
+                   <ul>
+                       <li>Brons</li><li>Silver</li><li>Guld</li>
+                   </ul>
+                    Välj det paket som passar dig bäst gällande pris och behandlingar som ska ingå i arbetet.
                 </p>
             
             <div className='cards_container1'>
@@ -96,9 +95,11 @@ function ServiceCards() {
                         label='Sprutmålning'
                         />
                         <CardItem
-                        src={ServiceCard}
-                        text='Beskrivning.'
-                        label='X'
+                        src={floor}
+                        text='Målaresset i Göteborg målar garagegolv, industrigolv och lagergolv.
+                         Epoxigolv och dess fogfria beläggning skapar en slitstark yta som klarar av miljöer med mycket trafik och även när det är tungt.
+                         Målade epoxigolv används även i offentliga miljöer, butiker och personalutrymmen.'
+                        label='Epoximålning'
                         path='/vara-tjanster'
                         />
                         </ul>

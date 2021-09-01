@@ -2,7 +2,7 @@ import React from "react";
 import {  Col, Container, Row } from "react-bootstrap";
 import Package from "../Components/Package";
 import Banner from '../Components/Banner';
-import serviceBanner from '../images/ServiceCard.jpg';
+import serviceBanner from '../images/rolleBanner.jpg';
 import maleri from '../images/maleriforetagen.png';
 import nojd from '../images/nojdkund.png';
 
@@ -10,7 +10,7 @@ import nojd from '../images/nojdkund.png';
 function Packages() {
 
     let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-    let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvara och måla över gamla tapeter som hänger på väggarna.";
+    let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvarna och måla över gamla tapeter som hänger på väggarna.";
     let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
     let brons = [
       "Spackling av mindre hål och fogning av springor",
@@ -32,7 +32,7 @@ function Packages() {
         <Banner title="Renoveringspaket"
                  mainTitle="Välj bland våra renoveringspaket"
                   banner={serviceBanner} text='För att göra det enklare för våra kunder att välja måleritjänst har vi på
-                   Målaresset tagit fram tre olika renoveringspaket där du kan påverka själv vilka behandlingar som ska ingå i arbetet.'
+                   Målaresset tagit fram tre olika renoveringspaket där du själv kan välja vilka behandlingar som ska ingå i arbetet.'
                    nojd={nojd} 
                    Malforetag={maleri} 
                    middle={true}
@@ -50,7 +50,7 @@ function Packages() {
                 title="Brons"
                 cardText={bronsText}
                 lines={brons}
-                icon="thumbs-up"
+                //icon="thumbs-up"
                 variant="dark"
                 textC="white"
               />
@@ -60,7 +60,7 @@ function Packages() {
                 title="Silver"
                 cardText={silverText}
                 lines={silver}
-                icon="hand-scissors"
+               // icon="hand-scissors"
                 variant="gradient"
                 textC="white"
               />
@@ -70,7 +70,7 @@ function Packages() {
                 title="Guld"
                 cardText={guldText}
                 lines={guld}
-                icon="hand-peace"
+               // icon="hand-peace"
                 variant="dark"
                 textC="white"
               />

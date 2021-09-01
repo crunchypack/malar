@@ -3,6 +3,7 @@ import React from 'react'
 import ServiceCards from '../Components/ServiceCards';
 import Banner from '../Components/Banner';
 import serviceBanner from '../images/ServiceCard.jpg';
+import spackel from '../images/spackel.jpg';
 import maleri from '../images/maleriforetagen.png';
 import nojd from '../images/nojdkund.png';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -11,7 +12,7 @@ import Package from '../Components/Package';
 class Services extends React.Component {
     render(){
       let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-      let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvara och måla över gamla tapeter som hänger på väggarna.";
+      let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvarna och måla över gamla tapeter som hänger på väggarna.";
       let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
         let brons = [
           "Spackling av mindre hål och fogning av springor",
@@ -32,7 +33,7 @@ class Services extends React.Component {
             <React.Fragment>     
                 <Banner title="Behöver du rådgivning?"
                  mainTitle="Kontakta oss för ett kostnadsfritt besök"
-                  banner={serviceBanner} text='Målaresset lämnar gärna en offert på önskade arbeten. Klicka på "kontakta oss" för att komma till formuläret, ange dina kontaktuppgifter och beskriv så utförligt du kan, dina önskemål, visioner och tankar. Vi lovar att återkomma så fort vi kan.'
+                  banner={spackel} text='Målaresset lämnar gärna en offert på önskade arbeten. Klicka på "kontakta oss" för att komma till formuläret, ange dina kontaktuppgifter och beskriv så utförligt du kan, dina önskemål, visioner och tankar. Vi lovar att återkomma så fort vi kan.'
                    button={true}
                    nojd={nojd} 
                    Malforetag={maleri} 
