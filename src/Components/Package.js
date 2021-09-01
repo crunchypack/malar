@@ -11,8 +11,6 @@ import {
 import Modal from "react-modal";
 import "./Packages.css";
 import "animate.css";
-import ace1 from '../images/Ace1.png';
-import ace2 from '../images/Ace2.png';
 import ace3 from '../images/Ace3.png';
 
 function Package(props) {

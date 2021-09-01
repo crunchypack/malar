@@ -2,7 +2,6 @@ import '../App.css';
 import React from 'react'
 import ServiceCards from '../Components/ServiceCards';
 import Banner from '../Components/Banner';
-import serviceBanner from '../images/ServiceCard.jpg';
 import spackel from '../images/spackel.jpg';
 import maleri from '../images/maleriforetagen.png';
 import nojd from '../images/nojdkund.png';
