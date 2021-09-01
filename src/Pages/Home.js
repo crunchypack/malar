@@ -140,7 +140,7 @@ class Home extends React.Component {
           </Row>
 
           <Row style={{ margin: "2% 0" }}>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
                 title="Brons"
                 cardText={bronsText}
@@ -150,7 +150,7 @@ class Home extends React.Component {
                 textC="white"
               />
             </Col>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7" >
               <Package
                 title="Silver"
                 cardText={silverText}
@@ -160,7 +160,7 @@ class Home extends React.Component {
                 textC="white"
               />
             </Col>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
                 title="Guld"
                 cardText={guldText}
