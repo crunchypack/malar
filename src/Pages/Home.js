@@ -90,7 +90,7 @@ class Home extends React.Component {
               <ul>
                <li> Privatkunder</li>
                <li> Byggföretag</li>
-               <li> bostadsrättsföreningar</li>
+               <li> Bostadsrättsföreningar</li>
               </ul></b>
             Vi är yrkesmålare med många år i branschen och dokumenterade yrkesbevis.
             Oavsett storlek på projekt så har vi som princip att alltid sätta kundens behov i centrum. God kommunikation med våra kunder är vår högsta prioritet då vi vill att våra kunder ska känna sig trygga när de anlitar Målaresset.
