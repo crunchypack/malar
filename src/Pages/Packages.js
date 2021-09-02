@@ -9,16 +9,16 @@ import nojd from '../images/nojdkund.png';
 
 function Packages() {
 
-    let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-    let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvarna och måla över gamla tapeter som hänger på väggarna.";
-    let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
+  let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
+  let silverText = "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
+  let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
     let brons = [
-      "Spackling av mindre hål och fogning av springor",
+      "Spackling och lagning av mindre hål",
       "Målning av tak och väggar till fullgod täckning",
     ];
     let silver = [
       ...brons,
-      "Fogning av vinklar och springor",
+      "Fogning av vinklar",
       "Målning av lister, karmar, foder",
     ];
     let guld = [

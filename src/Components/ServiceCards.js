@@ -15,7 +15,7 @@ function ServiceCards() {
         <div className='cards1'>
              <h1>
             Våra tjänster</h1>  
-            <p>Målaresset i Göteborg är en säker och trygg partner, oavsett storlek på projekt.
+            <p>Målaresset i Göteborg är din säkera och trygga partner, oavsett storlek på ditt projekt.
                  Tack vare vår långa erfarenhet i branschen och dokumenterade yrkesbevis håller vi alltid en hög standard på de arbeten vi utför.
                  Vårt breda nätverk av olika profesionella hantverkargrupper säkerställer att vi kan erbjuda dig en trygg resa från start till slut i ditt projekt.
                  Vi hjälper dig med allt inom måleri, tapetsering, entreprenad och plåtmålning.
@@ -33,7 +33,7 @@ function ServiceCards() {
                     <CardItem
                         src={total}
                         text='Vi tar gärna totalansvaret över hela renoveringsprojektet, från idé till slutbesiktning.
-                        Med vårt breda kontaktnät av entreprenörer inom VVS, el, bygg m.m har vi de förutsättningarna som krävs för att ge dig det bästa resultatet.
+                        Med vårt breda kontaktnät av entreprenörer inom El, bygg, VVS m.m har vi de förutsättningarna som krävs för att ge dig det bästa resultatet.
                         Med oss som ansvariga över hela projektet blir din roll som beställare enklare, tryggare och mer hanterligt.
                         Vi sköter projekteringen och samordningen mellan de olika hantverkargrupperna och du får en kontaktperson som förser dig med den information du önskar och behöver.'
                         label='Totelentrepenad'
@@ -58,9 +58,8 @@ function ServiceCards() {
                     <ul className='cards_items1'>
                     <CardItem
                         src={wallPaint}
-                        text="Målaresset tar hand om hela målningsprojektet.
-                         Förarbetet är otroligt viktigt och avgörande för slutresultatet, vi är noggranna med att tvätta väggarna med målartvätt för att avlägsna smuts och fett.
-                         Innan vi målar är vi noggranna med att spackla och slipar ytorna för att de ska bli jämna och släta.
+                        text="Målaresset tar hand om hela ditt målningsprojekt.
+                         Förarbetet är otroligt viktigt och avgörande för slutresultatet, vi är noggranna med förarbetet och lägger ner det lilla extra för att slutresultatet ska bli som du önskar och föreställt dig.
                          Vi utför alla våra målningsuppdrag med största noggrannhet och med en hög standard."
                         label='Lägenhetsmålning'
                         />
@@ -74,8 +73,8 @@ function ServiceCards() {
                         <CardItem
                         src={roof}
                         text='Trasiga och slitna tak är en vanlig anledning till fuktskador.
-                         Plåttak måste målas om med jämna mellanrum för att undvika rostangrepp.
-                         Med rätt underhåll förlänger du livslängden på ditt tak och ökar skyddet mot fuktskador.
+                         Plåttak måste underhållas profesionellt med jämna mellanrum för att undvika rostangrepp.
+                         Med rätt behandlingar förlänger du livslängden på ditt tak och ökar skyddet mot fuktskador.
                          Vi på Målaresset har lång erfarenhet av att utföra både reparationer och målning på alla typer av tak, såväl plåt som betongpannor. '
                         label='Takmålning'
                         path='/vara-tjanster'
@@ -96,8 +95,8 @@ function ServiceCards() {
                         />
                         <CardItem
                         src={floor}
-                        text='Målaresset i Göteborg målar garagegolv, industrigolv och lagergolv.
-                         Epoxigolv och dess fogfria beläggning skapar en slitstark yta som klarar av miljöer med mycket trafik och även när det är tungt.
+                        text='Målaresset i Göteborg målar lagergolv, industrigolv och garagegolv m.m.
+                         Epoxigolv och dess fogfria beläggning skapar en hård och slitstark yta som klarar av miljöer med mycket tung trafik.
                          Målade epoxigolv används även i offentliga miljöer, butiker och personalutrymmen.'
                         label='Epoximålning'
                         path='/vara-tjanster'

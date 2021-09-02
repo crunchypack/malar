@@ -9,7 +9,14 @@ import banner4 from "../images/banner4.jpg";
 import banner5 from "../images/banner5.jpg";
 import bild from "../images/bild.png";
 import nojdkund from "../images/nojdkund.png";
-import service from "../images/service.png";
+
+import tapeter from "../images/tapeter.jpg";
+import spackle from "../images/spackle.jpg";
+import window from "../images/fönster.jpg";
+import kladd from "../images/kladd.jpg";
+import fasad from "../images/fasad.jpg";
+import metall from "../images/metall.jpg";
+
 import rotavdrag from "../images/rotavdrag.png";
 import fastpris from "../images/fastpris.png";
 import "./Home.css";
@@ -19,24 +26,24 @@ import { Col, Container, Row } from "react-bootstrap";
 class Home extends React.Component {
   renderThumbs;
   render() {
-    let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-    let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvarna och måla över gamla tapeter som hänger på väggarna.";
-    let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
-    let brons = [
-      "Spackling av mindre hål och fogning av springor",
-      "Målning av tak och väggar till fullgod täckning",
-    ];
-    let silver = [
-      ...brons,
-      "Fogning av vinklar och springor",
-      "Målning av lister, karmar, foder",
-    ];
-    let guld = [
-      ...silver,
-      "Slipning, grundmålning och fläckspackling",
-      "Bredspackling",
-      "Priming",
-    ];
+    let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
+      let silverText = "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
+      let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
+        let brons = [
+          "Spackling och lagning av mindre hål",
+          "Målning av tak och väggar till fullgod täckning",
+        ];
+        let silver = [
+          ...brons,
+          "Fogning av vinklar",
+          "Målning av lister, karmar, foder",
+        ];
+        let guld = [
+          ...silver,
+          "Slipning, grundmålning och fläckspackling",
+          "Bredspackling",
+          "Priming",
+        ];
     return (
       <div className="container-fluid">
         <Carousel
@@ -177,7 +184,7 @@ class Home extends React.Component {
           <div className="service-child">
             <Link to="/malaresset">
 
-              <img src={service} alt="tjanst-bild" />
+              <img src={spackle} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
@@ -186,7 +193,7 @@ class Home extends React.Component {
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              <img src={service} alt="tjanst-bild" />
+              <img src={kladd} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
@@ -195,16 +202,16 @@ class Home extends React.Component {
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              <img src={service} alt="tjanst-bild" />
+              <img src={fasad} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
             </Link>
-            <h3>Fasad</h3>
+            <h3>Utvändigt</h3>
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              <img src={service} alt="tjanst-bild" />
+              <img src={metall} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
@@ -213,7 +220,7 @@ class Home extends React.Component {
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              <img src={service} alt="tjanst-bild" />
+              <img src={tapeter} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>
@@ -222,7 +229,7 @@ class Home extends React.Component {
           </div>
           <div className="service-child">
             <Link to="/malaresset">
-              <img src={service} alt="tjanst-bild" />
+              <img src={window} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
               </div>

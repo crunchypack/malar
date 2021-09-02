@@ -10,16 +10,16 @@ import Package from '../Components/Package';
 
 class Services extends React.Component {
     render(){
-      let bronsText = "Målaressets Brons-paket är för dig som redan har släta ytor men vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-      let silverText = "Målaressets Silver-paket är för dig som vill dölja skarvarna och måla över gamla tapeter som hänger på väggarna.";
+      let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
+      let silverText = "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
       let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
         let brons = [
-          "Spackling av mindre hål och fogning av springor",
+          "Spackling och lagning av mindre hål",
           "Målning av tak och väggar till fullgod täckning",
         ];
         let silver = [
           ...brons,
-          "Fogning av vinklar och springor",
+          "Fogning av vinklar",
           "Målning av lister, karmar, foder",
         ];
         let guld = [
@@ -32,7 +32,7 @@ class Services extends React.Component {
             <React.Fragment>     
                 <Banner title="Behöver du rådgivning?"
                  mainTitle="Kontakta oss för ett kostnadsfritt besök"
-                  banner={spackel} text='Målaresset lämnar gärna en offert på önskade arbeten. Klicka på "kontakta oss" för att komma till formuläret, ange dina kontaktuppgifter och beskriv så utförligt du kan, dina önskemål, visioner och tankar. Vi lovar att återkomma så fort vi kan.'
+                  banner={spackel} text='Målaresset lämnar gärna en offert på önskade arbeten. Klicka på "kontakta oss", ange dina kontaktuppgifter och beskriv så utförligt du kan, dina önskemål, visioner och tankar. Vi lovar att återkomma så fort vi kan.'
                    button={true}
                    nojd={nojd} 
                    Malforetag={maleri} 
