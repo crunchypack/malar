@@ -23,9 +23,7 @@ import "./Home.css";
 import Package from "../Components/Package";
 import { Col, Container, Row } from "react-bootstrap";
 
-class Home extends React.Component {
-  renderThumbs;
-  render() {
+const Home =()=> {
     let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
       let silverText = "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
       let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
@@ -182,7 +180,7 @@ class Home extends React.Component {
         <div className="home-services">
           <h2 className="service-child">Våra Tjänster</h2>
           <div className="service-child">
-            <Link to="/malaresset">
+            <Link to="/malaresset/vara-tjanster">
 
               <img src={spackle} alt="tjanst-bild" />
               <div className="service-middle">
@@ -192,7 +190,7 @@ class Home extends React.Component {
             <h3>Totalentrepenad</h3>
           </div>
           <div className="service-child">
-            <Link to="/malaresset">
+            <Link to="/malaresset/vara-tjanster">
               <img src={kladd} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -201,7 +199,7 @@ class Home extends React.Component {
             <h3>Invändigt</h3>
           </div>
           <div className="service-child">
-            <Link to="/malaresset">
+            <Link to="/malaresset/vara-tjanster">
               <img src={fasad} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -210,7 +208,7 @@ class Home extends React.Component {
             <h3>Utvändigt</h3>
           </div>
           <div className="service-child">
-            <Link to="/malaresset">
+            <Link to="/malaresset/vara-tjanster">
               <img src={metall} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -219,7 +217,7 @@ class Home extends React.Component {
             <h3>Plåt</h3>
           </div>
           <div className="service-child">
-            <Link to="/malaresset">
+            <Link to="/malaresset/vara-tjanster">
               <img src={tapeter} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -227,8 +225,8 @@ class Home extends React.Component {
             </Link>
             <h3>Tapetsering</h3>
           </div>
-          <div className="service-child">
-            <Link to="/malaresset">
+          <div className="service-child" >
+            <Link to="/malaresset/vara-tjanster">
               <img src={window} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -239,6 +237,5 @@ class Home extends React.Component {
         </div>
       </div>
     );
-  }
 }
 export default Home;

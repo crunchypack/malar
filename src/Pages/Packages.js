@@ -45,7 +45,7 @@ function Packages() {
           </Row>
 
           <Row style={{ margin: "2% 0" }}>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
                 title="Brons"
                 cardText={bronsText}
@@ -55,7 +55,7 @@ function Packages() {
                 textC="white"
               />
             </Col>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
                 title="Silver"
                 cardText={silverText}
@@ -65,7 +65,7 @@ function Packages() {
                 textC="white"
               />
             </Col>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
                 title="Guld"
                 cardText={guldText}
