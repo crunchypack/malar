@@ -6,6 +6,9 @@ import serviceBanner from '../images/rolleBanner.jpg';
 import maleri from '../images/maleriforetagen.png';
 import nojd from '../images/nojdkund.png';
 
+import bronzeMed from "../images/bronze-medal.png";
+import silverMed from "../images/silver-medal.png";
+import goldMed from "../images/gold-medal.png";
 
 function Packages() {
 
@@ -50,9 +53,9 @@ function Packages() {
                 title="Brons"
                 cardText={bronsText}
                 lines={brons}
-                //icon="thumbs-up"
-                variant="dark"
+                variant="bronze"
                 textC="white"
+                medal={bronzeMed}
               />
             </Col>
             <Col className="py-2 col-lg-4 col-sm-7 ">
@@ -60,9 +63,9 @@ function Packages() {
                 title="Silver"
                 cardText={silverText}
                 lines={silver}
-               // icon="hand-scissors"
-                variant="gradient"
+                variant="silver"
                 textC="white"
+                medal={silverMed}
               />
             </Col>
             <Col className="py-2 col-lg-4 col-sm-7 ">
@@ -70,9 +73,9 @@ function Packages() {
                 title="Guld"
                 cardText={guldText}
                 lines={guld}
-               // icon="hand-peace"
-                variant="dark"
+                variant="gold"
                 textC="white"
+                medal={goldMed}
               />
               
             </Col>

@@ -11,7 +11,6 @@ import {
 import Modal from "react-modal";
 import "./Packages.css";
 import "animate.css";
-import ace3 from '../images/Ace3.png';
 
 function Package(props) {
   let items = props.lines.map((item, index) => (
@@ -51,14 +50,16 @@ function Package(props) {
       <Card bg={props.variant} text={props.textC} className="h4 h-100">
         <Card.Body>
           <div className="IconContainer">
-            <img src={ace3} alt="ace of spades" className='img-fluid'/>
+            <img src={props.medal} alt="medal" className='img-fluid'/>
           </div>
           <Card.Title className="text-center">{props.title}</Card.Title>
           <Card.Text>{props.cardText}</Card.Text>
         </Card.Body>
         <ListGroup className="listGroup" variant={props.variant}>
           {items}
+          
         </ListGroup>
+        
         <Button variant={props.variant} onClick={openModal}>
           Boka
         </Button>

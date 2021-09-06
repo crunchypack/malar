@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-
 class Banner extends React.Component{
     render(){
         let middle;
@@ -36,6 +35,7 @@ class Banner extends React.Component{
               {middle}
               <Col className="banner-img" xs={12} md={8}>
                 <img src={this.props.banner} alt="Banner" style={{height:'50vh', objectFit:'cover'}}/>
+              
               </Col>
             </Row>
           </Container>

@@ -52,12 +52,13 @@ class Footer extends React.Component{
           </Form>
                 </div>
                 <div className='social footer-item'>
+                  <h4>100% Nöjd Kund Garanti</h4>
+                    <img src={nojd} alt='nöjd kund logga'/>
+                    <img src={maleri} alt="Måleriföretagen logga"/>
                     <h4>Följ oss på sociala medier</h4>
                     <a href='https://facebook.com/error404officialteam/' rel="noreferrer" target='_blank' className='facebook'><FontAwesomeIcon icon={["fab", "facebook"]} size='3x'/></a>
                     <a href='https://instagram.com/malaresset' rel="noreferrer" target='_blank' className='instagram'><FontAwesomeIcon icon={["fab", "instagram"]} size='3x'/></a>
-                    <h4>100% Nöjd Kund Garanti</h4>
-                    <img src={nojd} alt='nöjd kund logga'/>
-                    <img src={maleri} alt="Måleriföretagen logga"/>
+                    
                 </div> 
             </footer>
         );

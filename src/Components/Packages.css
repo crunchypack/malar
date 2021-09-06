@@ -19,12 +19,18 @@
 .listGroup{
     min-height: 20em;
 }
-.bg-gradient{
-    /* background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(158, 0, 0) 100%); */
-    background-color: #8b0000!important;
-
-
+ .bg-bronze{
+    background-color: #a97142!important;
 }
+.bg-silver{
+    background-color:#aaa9ad!important;
+
+} 
+.bg-gold{
+    /* background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(158, 0, 0) 100%); */
+    background-color: #d4af37!important;
+}
+
 .btn-gradient{
     color: azure!important;
 }

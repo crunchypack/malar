@@ -2,7 +2,6 @@ import React from "react";
 //import CardItemLink from './CardItemLink';
 import CardItem from "./CardItem";
 import "./ServiceCard.css";
-import ServiceCard from "../images/ServiceCard.jpg";
 import spray from "../images/spray-paint.jpg";
 import roof from "../images/roof.jpg";
 import wallPaint from "../images/wall-paint.jpg";
@@ -10,6 +9,8 @@ import window from "../images/window.jpg";
 import total from "../images/total.jpg";
 import tapet from "../images/tapet.jpg";
 import floor from "../images/floor.png";
+import fasad1 from "../images/fasad1.jpg";
+import fasad2 from "../images/fasad2.jpg";
 const ServiceCards = ()=> {
     
   return (
@@ -28,7 +29,7 @@ const ServiceCards = ()=> {
               label="Totelentrepenad"
             />
             <CardItem
-              src={ServiceCard}
+              src={fasad1}
               text="Målaresset har en gedigen erfarenhet av utomhusmålning.
                         Vi målar på trä, puts, kalk m.m. Som i alla projekt är underbehandligen viktigast för det slutgiltiga resultatet.
                         Vi målar allt från stora bostadsområden, nyproducerade villor till sommarstugor.
@@ -36,21 +37,21 @@ const ServiceCards = ()=> {
               label="Fasadmålning"
               path="/malaresset/vara-tjanster"
             />
-            <CardItem
-              src={ServiceCard}
-              text="Att tvätta och sköta om sin villas fasad och tak lyfter husets utseende och får området att se trevligare ut.
-                        Dessutom så förlängs fasadens livslängd och slitaget minskar."
-              label="Fasadtvätt"
-              path="/vara-tjanster"
-            />
-          </ul>
-          <ul className="cards_items1">
-            <CardItem
+           <CardItem
               src={wallPaint}
               text="Målaresset tar hand om hela ditt målningsprojekt.
                          Förarbetet är otroligt viktigt och avgörande för slutresultatet, vi är noggranna med förarbetet och lägger ner det lilla extra för att slutresultatet ska bli som du önskar och föreställt dig.
                          Vi utför alla våra målningsuppdrag med största noggrannhet och med en hög standard."
               label="Lägenhetsmålning"
+            />
+          </ul>
+          <ul className="cards_items1">
+             <CardItem
+              src={fasad2}
+              text="Att tvätta och sköta om sin villas fasad och tak lyfter husets utseende och får området att se trevligare ut.
+                        Dessutom så förlängs fasadens livslängd och slitaget minskar."
+              label="Fasadtvätt"
+              path="/vara-tjanster"
             />
             <CardItem
               src={tapet}

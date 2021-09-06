@@ -8,6 +8,10 @@ import nojd from '../images/nojdkund.png';
 import { Col, Container, Row } from 'react-bootstrap';
 import Package from '../Components/Package';
 
+import bronzeMed from "../images/bronze-medal.png";
+import silverMed from "../images/silver-medal.png";
+import goldMed from "../images/gold-medal.png";
+
 class Services extends React.Component {
     render(){
       let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
@@ -53,8 +57,9 @@ class Services extends React.Component {
                 cardText={bronsText}
                 lines={brons}
                 icon="thumbs-up"
-                variant="dark"
+                variant="bronze"
                 textC="white"
+                medal={bronzeMed}
               />
             </Col>
             <Col className="py-2">
@@ -63,8 +68,9 @@ class Services extends React.Component {
                 cardText={silverText}
                 lines={silver}
                 icon="hand-scissors"
-                variant="gradient"
+                variant="silver"
                 textC="white"
+                medal={silverMed}
               />
             </Col>
             <Col className="py-2">
@@ -73,8 +79,9 @@ class Services extends React.Component {
                 cardText={guldText}
                 lines={guld}
                 icon="hand-peace"
-                variant="dark"
+                variant="gold"
                 textC="white"
+                medal={goldMed}
               />
             </Col>
           </Row>
