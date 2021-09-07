@@ -47,7 +47,7 @@ class AboutUs extends React.Component {
         <Container fluid>
           <Row className="justify-content-md-center bottom-space">
             <Col md="auto">
-              <Card style={{ width: "18rem" }} className="h-100 text-center">
+              <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
                 <Card.Img src={maleri} />
                 <Card.Body>
                   <Card.Text>
@@ -60,7 +60,7 @@ class AboutUs extends React.Component {
             </Col>
 
             <Col md="auto">
-              <Card style={{ width: "20rem" }} className="h-100 text-center">
+              <Card style={{ width: "20rem"}} className="h-100 text-center border-0">
                 <Card.Img src={nojd} />
                 <Card.Body>
                   <Card.Text>
@@ -74,7 +74,7 @@ class AboutUs extends React.Component {
           </Row>
           <Row className="justify-content-md-center d-flex">
             <Col md="auto">
-              <Card style={{ width: "20rem" }} className="h-100 text-center">
+              <Card style={{ width: "20rem"  }} className="h-100 text-center border-0">
                 <Card.Img src={id06} />
                 <Card.Body>
                   <Card.Text>
@@ -90,7 +90,7 @@ class AboutUs extends React.Component {
             </Col>
 
             <Col md="auto">
-              <Card style={{ width: "20rem" }} className="h-100 text-center">
+              <Card style={{ width: "20rem"}} className="h-100 text-center border-0">
                 <Card.Img src={malarna} />
                 <Card.Body>
                   <Card.Text>
@@ -101,7 +101,7 @@ class AboutUs extends React.Component {
               </Card>
             </Col>
             <Col md="auto">
-              <Card style={{ width: "18rem" }} className="h-100 text-center">
+              <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
                 <Card.Img src={mvk} />
                 <Card.Body>
                   <Card.Text>
