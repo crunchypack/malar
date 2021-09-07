@@ -32,7 +32,7 @@ class ContactForm extends React.Component {
     // //Code Goes Here
     // const sgMail = require("@sendgrid/mail");
     // sgMail.setApiKey(SENDGRID_API_KEY);
-    // e.preventDefault();
+     e.preventDefault();
     // const msg = {
     //   to: "simon.wolf.lobo@gmail.com", // Change to your recipient
     //   from: "simon.lobo@hotmail.se", // Change to your verified sender
@@ -56,6 +56,7 @@ class ContactForm extends React.Component {
     //   .catch((error) => {
     //     console.error(error);
     //   });
+    console.log(this.state);
 
     this.setState({
       formName: "",
