@@ -20,15 +20,17 @@
     min-height: 20em;
 }
  .bg-bronze{
-    background-color: #a97142!important;
+
+    background:linear-gradient(90deg, #804a00, #f6b068, #ba7b36, #d7954f )!important;
 }
 .bg-silver{
-    background-color:#aaa9ad!important;
+
+    background:linear-gradient(90deg, #a2a2a2, #fffff1, #c0c0c0, #d7d7d7d8 )!important;
 
 } 
 .bg-gold{
-    /* background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(158, 0, 0) 100%); */
-    background-color: #d4af37!important;
+    background:linear-gradient(90deg, #AE8625, #F7EF8A, #D2AC47, #EDC967 )!important;
+
 }
 
 .btn-gradient{
