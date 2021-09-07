@@ -114,7 +114,7 @@ const Home = () => {
 
       <div className="home-info">
         <h2 className="info-child">Målaresset i Göteborg</h2>
-        <p className="info-child">
+        <div className="info-child">
           Målaresset är företaget ni anlitar när jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom måleri, plåt, snickeri, totalrenovering m.m. Vi riktar oss till:
           <strong>
             <ul>
@@ -124,7 +124,7 @@ const Home = () => {
             </ul></strong>
           Vi är yrkesmålare med många år i branschen och dokumenterade yrkesbevis.
           Oavsett storlek på projekt så har vi som princip att alltid sätta kundens behov i centrum. God kommunikation med våra kunder är vår högsta prioritet då vi vill att våra kunder ska känna sig trygga när de anlitar Målaresset.
-        </p>
+        </div>
         <img className="info-child" src={bild} alt="wet paint" />
       </div>
       <div className="home-success">
