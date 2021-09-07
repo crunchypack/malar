@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React,{useState} from "react";
 import {
   Button,
   Card,
@@ -13,6 +13,19 @@ import "./Packages.css";
 import "animate.css";
 
 function Package(props) {
+  const [PackageMsg, setPackageMsg] = useState("");
+  const [Email, setEmail] = useState("");
+  const [Package, setPackage] = useState(props.title);
+
+  const handleSubmit = (e) =>{
+    // code goes here
+    e.preventDefault();
+    console.log("Email:" + Email);
+    console.log("Package:" + Package);
+    console.log("Message:" + PackageMsg);
+    closeModal();
+  }
+  
   let items = props.lines.map((item, index) => (
     <ListGroupItem variant={props.variant} key={index}>
       <FontAwesomeIcon icon="check" /> {item}
@@ -76,23 +89,24 @@ function Package(props) {
         <Button variant="danger" onClick={closeModal}>
           Stäng
         </Button>
-        <Form>
+        <Form onSubmit={e =>{handleSubmit(e)}}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <FloatingLabel
               controlId="floatingInput"
               label="Email address"
               className="mb-3"
             >
-              <Form.Control type="email" placeholder="name@example.com" />
+              <Form.Control type="email" placeholder="name@example.com" value={Email} onChange={e=>setEmail(e.target.value)}/>
             </FloatingLabel>
             <FloatingLabel controlId="floatingSelect" label="Paket">
               <Form.Select
                 aria-label="Floating label select example"
-                defaultValue={props.title}
+                defaultValue= {Package}
+                onChange={e=>setPackage(e.target.value)}
               >
-                <option value="Basic">Basic</option>
-                <option value="Regular">Regular</option>
-                <option value="Premium">Premium</option>
+                <option value="Brons">Brons</option>
+                <option value="Silver">Silver</option>
+                <option value="Guld">Guld</option>
               </Form.Select>
             </FloatingLabel>
           </Form.Group>
@@ -102,10 +116,12 @@ function Package(props) {
                 as="textarea"
                 placeholder="Meddelande"
                 style={{ height: "100px" }}
+                value= {PackageMsg}
+                onChange={e=>{setPackageMsg(e.target.value)}}
               />
             </FloatingLabel>
           </Form.Group>
-          <Button variant="success" onClick={closeModal}>
+          <Button variant="success" type="submit">
             Skicka
           </Button>
         </Form>

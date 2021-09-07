@@ -62,7 +62,7 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div class="carousel-caption">
+          <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
           </div>
         </div>
@@ -73,7 +73,7 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div class="carousel-caption">
+          <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
           </div>
         </div>
@@ -84,7 +84,7 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div class="carousel-caption">
+          <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
           </div>
         </div>
@@ -95,7 +95,7 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div class="carousel-caption">
+          <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
           </div>
         </div>
@@ -106,7 +106,7 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div class="carousel-caption">
+          <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
           </div>
         </div>
