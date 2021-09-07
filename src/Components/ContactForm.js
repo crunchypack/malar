@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-//const{SENDGRID_API_KEY} =require('../sendgrid');
+const{SENDGRID_API_KEY} =require('../sendgrid');
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -12,50 +12,83 @@ class ContactForm extends React.Component {
       formPhone: "",
       formMsg: "",
       files: null,
+      fileName: "",
+      status:"d-none text-success"
+
     };
     this.formFiles = React.createRef();
     this.handleFormChange = this.handleFormChange.bind(this);
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
     this.handleFile = this.handleFile.bind(this);
   }
+  getBase64 = file => {
+    return new Promise(resolve => {
+      let fileInfo;
+      let baseURL = "";
+      // Make new FileReader
+      let reader = new FileReader();
+
+      // Convert the file to base64 text
+      reader.readAsDataURL(file);
+
+      // on reader load somthing...
+      reader.onload = () => {
+        // Make a fileInfo Object
+        console.log("Called", reader);
+        baseURL = reader.result;
+        console.log(baseURL);
+        resolve(baseURL);
+      };
+      console.log(fileInfo);
+    });
+  };
   handleFormChange(e) {
     this.setState({
       [e.target.name]: e.target.value,
     });
   }
   handleFile(e) {
+
     this.setState({
-      files: e.target.files,
+      files: URL.createObjectURL(e.target.files[0]),
+      fileName: e.target.files[0].name
     });
   }
   handleFormSubmit(e) {
-    // //Code Goes Here
-    // const sgMail = require("@sendgrid/mail");
-    // sgMail.setApiKey(SENDGRID_API_KEY);
+    //Code Goes Here
+    const sgMail = require("@sendgrid/mail");
+    sgMail.setApiKey(SENDGRID_API_KEY);
      e.preventDefault();
-    // const msg = {
-    //   to: "simon.wolf.lobo@gmail.com", // Change to your recipient
-    //   from: "simon.lobo@hotmail.se", // Change to your verified sender
-    //   subject: "Kontaktformulär Målaresset",
-    //   text:
-    //   "From:" +
-    //   this.state.formName +
-    //   "\nEmail:" +
-    //   this.state.formEmail +
-    //   "\nTel.:" +
-    //   this.state.formPhone +
-    //   "\nMeddelande: " +
-    //   this.state.formMsg
+    const msg = {
+      to: "simon.wolf.lobo@gmail.com", // Change to your recipient
+      from: "simon.lobo@hotmail.se", // Change to your verified sender
+      subject: "Kontaktformulär Målaresset",
+      text:
+      "From:" +
+      this.state.formName +
+      "\nEmail: " +
+      this.state.formEmail +
+      "\nTel.:" +
+      this.state.formPhone +
+      "\nMeddelande: " +
+      this.state.formMsg,
+      attachments: [
+        {
+          content: Buffer.from(this.state.files).toString('base64'),
+          filename:this.state.fileName,
+          type:"plain/text"
+        }
+      ]
       
-    // };
-    // sgMail
-    //   .send(msg)
-    //   .then(() => {
-    //     console.log("Email sent");
-    //   })
-    //   .catch((error) => {
-    //     console.error(error);
-    //   });
+    };
+    sgMail
+      .send(msg)
+      .then(() => {
+        this.setState({status:"text-success h3"})
+      })
+      .catch((error) => {
+        console.error(error);
+      });
     console.log(this.state);
 
     this.setState({
@@ -114,7 +147,6 @@ class ContactForm extends React.Component {
             <Form.Label>Bifoga bilder</Form.Label>
             <Form.Control
               type="file"
-              multiple
               onChange={this.handleFile}
               ref={this.formFiles}
             />
@@ -122,7 +154,9 @@ class ContactForm extends React.Component {
           <Button variant="success" type="submit">
             Submit
           </Button>
+          <div className={this.state.status}>Message sent</div>
         </Form>
+        
       </React.Fragment>
     );
   }
