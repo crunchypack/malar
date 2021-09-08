@@ -13,7 +13,8 @@ class ContactForm extends React.Component {
       formMsg: "",
       files: null,
       fileName: "",
-      status:"d-none text-success"
+      status:"d-none text-success",
+      sent:"Something went wrong please try again."
 
     };
     this.formFiles = React.createRef();
@@ -38,6 +39,7 @@ class ContactForm extends React.Component {
         baseURL = reader.result;
         console.log(baseURL);
         resolve(baseURL);
+        this.setState({files:baseURL})
       };
       console.log(fileInfo);
     });
@@ -48,11 +50,10 @@ class ContactForm extends React.Component {
     });
   }
   handleFile(e) {
+    this.getBase64(e.target.files[0]);
+    this.setState({fileName:e.target.files[0].name});
 
-    this.setState({
-      files: URL.createObjectURL(e.target.files[0]),
-      fileName: e.target.files[0].name
-    });
+
   }
   handleFormSubmit(e) {
     //Code Goes Here
@@ -63,28 +64,20 @@ class ContactForm extends React.Component {
       to: "simon.wolf.lobo@gmail.com", // Change to your recipient
       from: "simon.lobo@hotmail.se", // Change to your verified sender
       subject: "Kontaktformulär Målaresset",
-      text:
-      "From:" +
+      html:'<html><body><p> From:' +
       this.state.formName +
-      "\nEmail: " +
+      '</p><p>Email: ' +
       this.state.formEmail +
-      "\nTel.:" +
+      "</p><p>Tel.:" +
       this.state.formPhone +
-      "\nMeddelande: " +
-      this.state.formMsg,
-      attachments: [
-        {
-          content: Buffer.from(this.state.files).toString('base64'),
-          filename:this.state.fileName,
-          type:"plain/text"
-        }
-      ]
+      "</p>Meddelande: " +
+      this.state.formMsg+'</p><div><img src="'+this.state.files+'" alt="attached image"/></div></body></html>',
       
     };
     sgMail
       .send(msg)
       .then(() => {
-        this.setState({status:"text-success h3"})
+        this.setState({status:"text-success h3",sent:"Message sent"})
       })
       .catch((error) => {
         console.error(error);
@@ -154,9 +147,11 @@ class ContactForm extends React.Component {
           <Button variant="success" type="submit">
             Submit
           </Button>
-          <div className={this.state.status}>Message sent</div>
+          <div className={this.state.status}>{this.state.sent}</div>
+          <div><img src={this.state.files} alt="attached" className="img-fluid"/></div>
+          
+          
         </Form>
-        
       </React.Fragment>
     );
   }
