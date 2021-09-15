@@ -58,7 +58,7 @@ class Services extends React.Component {
                 lines={brons}
                 icon="thumbs-up"
                 variant="bronze"
-                textC="white"
+                textC="dark"
                 medal={bronzeMed}
               />
             </Col>
@@ -69,7 +69,7 @@ class Services extends React.Component {
                 lines={silver}
                 icon="hand-scissors"
                 variant="silver"
-                textC="white"
+                textC="dark"
                 medal={silverMed}
               />
             </Col>
@@ -80,7 +80,7 @@ class Services extends React.Component {
                 lines={guld}
                 icon="hand-peace"
                 variant="gold"
-                textC="white"
+                textC="dark"
                 medal={goldMed}
               />
             </Col>

@@ -71,7 +71,7 @@ class ContactForm extends React.Component {
       "</p><p>Tel.:" +
       this.state.formPhone +
       "</p>Meddelande: " +
-      this.state.formMsg+'</p><div><img src="'+this.state.files+'" alt="attached image"/></div></body></html>',
+      this.state.formMsg+'</p></body></html>',
       
     };
     sgMail
@@ -80,6 +80,7 @@ class ContactForm extends React.Component {
         this.setState({status:"text-success h3",sent:"Message sent"})
       })
       .catch((error) => {
+        this.setState({status:"text-danger h3"});
         console.error(error);
       });
     console.log(this.state);
@@ -137,19 +138,11 @@ class ContactForm extends React.Component {
               value={this.state.formMsg}
               onChange={this.handleFormChange}
             />
-            <Form.Label>Bifoga bilder</Form.Label>
-            <Form.Control
-              type="file"
-              onChange={this.handleFile}
-              ref={this.formFiles}
-            />
           </Form.Group>
           <Button variant="success" type="submit">
             Submit
           </Button>
           <div className={this.state.status}>{this.state.sent}</div>
-          <div><img src={this.state.files} alt="attached" className="img-fluid"/></div>
-          
           
         </Form>
       </React.Fragment>

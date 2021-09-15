@@ -54,7 +54,7 @@ function Packages() {
                 cardText={bronsText}
                 lines={brons}
                 variant="bronze"
-                textC="white"
+                textC="dark"
                 medal={bronzeMed}
               />
             </Col>
@@ -64,7 +64,7 @@ function Packages() {
                 cardText={silverText}
                 lines={silver}
                 variant="silver"
-                textC="white"
+                textC="dark"
                 medal={silverMed}
               />
             </Col>
@@ -74,7 +74,7 @@ function Packages() {
                 cardText={guldText}
                 lines={guld}
                 variant="gold"
-                textC="white"
+                textC="dark"
                 medal={goldMed}
               />
               

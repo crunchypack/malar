@@ -177,7 +177,7 @@ const Home = () => {
               lines={brons}
               icon="thumbs-up"
               variant="bronze"
-              textC="white"
+              textC="dark"
               medal={bronzeMed}
             />
           </Col>
@@ -188,7 +188,7 @@ const Home = () => {
               lines={silver}
               icon="hand-scissors"
               variant="silver"
-              textC="white"
+              textC="dark"
               medal={silverMed}
             />
           </Col>
@@ -199,7 +199,7 @@ const Home = () => {
               lines={guld}
               icon="hand-peace"
               variant="gold"
-              textC="white"
+              textC="dark"
               medal={goldMed}
             />
           </Col>
