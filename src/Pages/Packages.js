@@ -1,115 +1,92 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import {  Col, Container, Row } from "react-bootstrap";
 import Package from "../Components/Package";
-import Modal from "react-modal";
+import Banner from '../Components/Banner';
+import serviceBanner from '../images/rolleBanner.jpg';
+import maleri from '../images/maleriforetagen.png';
+import nojd from '../images/nojdkund.png';
+
+import bronzeMed from "../images/bronze-medal.png";
+import silverMed from "../images/silver-medal.png";
+import goldMed from "../images/gold-medal.png";
 
 function Packages() {
 
-
-    const customStyles = {
-      content: {
-        top: "50%",
-        left: "50%",
-        right: "auto",
-        bottom: "auto",
-        marginRight: "-50%",
-        transform: "translate(-50%, -50%)",
-      },
-    };
-    Modal.setAppElement("#root");
-    let subtitle;
-    const [modalIsOpen, setIsOpen] = React.useState(false);
-  
-    function openModal() {
-      setIsOpen(true);
-    }
-  
-    function afterOpenModal() {
-      // references are now sync'd and can be accessed.
-      subtitle.style.color = '#f00';
-    }
-  
-    function closeModal() {
-      setIsOpen(false);
-    }
-    let text = "Lorem ipsum signu rato fatzo paint wall minu rata grobus mkes";
-    let basic = [
-      "Spackling av mindre hål och fogning av springor",
+  let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
+  let silverText = "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
+  let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
+    let brons = [
+      "Spackling och lagning av mindre hål",
       "Målning av tak och väggar till fullgod täckning",
     ];
-    let regular = [
-      ...basic,
-      "Fogning av vinklar och springor",
+    let silver = [
+      ...brons,
+      "Fogning av vinklar",
       "Målning av lister, karmar, foder",
     ];
-    let premium = [
-      ...regular,
+    let guld = [
+      ...silver,
       "Slipning, grundmålning och fläckspackling",
       "Bredspackling",
       "Priming",
     ];
     return (
       <React.Fragment>
+        <Banner title="Renoveringspaket"
+                 mainTitle="Välj bland våra renoveringspaket"
+                  banner={serviceBanner} text='För att göra det enklare för våra kunder att välja måleritjänst har vi på
+                   Målaresset tagit fram tre olika renoveringspaket där du själv kan välja vilka behandlingar som ska ingå i arbetet.'
+                   nojd={nojd} 
+                   Malforetag={maleri} 
+                   middle={true}
+                   />
         <Container fluid="sm">
           <Row>
             <Col>
-              <h2>Våra renoverings paket</h2>
+              <h2>Målaressets renoveringspaket</h2>
             </Col>
           </Row>
 
           <Row style={{ margin: "2% 0" }}>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
-                title="Basic"
-                cardText={text}
-                lines={basic}
-                icon="thumbs-up"
-                variant="info"
-                textC="white"
+                title="Brons"
+                cardText={bronsText}
+                lines={brons}
+                tillval="Målning av lister, karmar och foder"
+                tillBool="true"
+                variant="bronze"
+                textC="dark"
+                medal={bronzeMed}
               />
             </Col>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
-                title="Regular"
-                cardText={text}
-                lines={regular}
-                icon="hand-scissors"
-                variant="primary"
-                textC="white"
+                title="Silver"
+                cardText={silverText}
+                lines={silver}
+                variant="silver"
+                tillval="Bredspackling av väggar"
+                tillBool="true"
+                textC="dark"
+                medal={silverMed}
               />
             </Col>
-            <Col className="py-2">
+            <Col className="py-2 col-lg-4 col-sm-7 ">
               <Package
-                title="Premium"
-                cardText={text}
-                lines={premium}
-                icon="hand-peace"
-                variant="success"
-                textC="white"
+                title="Guld"
+                cardText={guldText}
+                lines={guld}
+                variant="gold"
+                textC="dark"
+                medal={goldMed}
               />
               
             </Col>
           </Row>
           
         </Container>
-        <Modal
-          isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
-          onRequestClose={closeModal}
-          style={customStyles}
-          contentLabel="Example Modal"
-        >
-          <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-          <button onClick={closeModal}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-          </form>
-        </Modal>
+
       </React.Fragment>
     );
   }

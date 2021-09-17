@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
-import { faStar,faThumbsUp,faCheckCircle,faCheck,faHandPeace,faHandScissors } from '@fortawesome/free-solid-svg-icons';
+import { faStar,faThumbsUp,faCheckCircle,faCheck,faHandPeace,faHandScissors,faPlus } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-library.add( fab,faCheckCircle,faStar,faThumbsUp,faCheck,faHandPeace,faHandScissors)
+library.add( fab,faCheckCircle,faStar,faThumbsUp,faCheck,faHandPeace,faHandScissors,faPlus)
 
 ReactDOM.render(
   <React.StrictMode>

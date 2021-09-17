@@ -1,12 +1,13 @@
-
-#container{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+/* #container{
     width: 100%;
     margin: 0 auto;
-}
+} */
 /* Partners*/
 #partner-banner{
     margin: 0 auto;
-    background:linear-gradient(90deg, rgb(43, 43, 43) 0%, rgb(0, 0, 0) 100%); 
+    /* background:linear-gradient(90deg, rgb(0, 174, 239) 0%, rgb(0, 174, 239) 100%);  */
+    background-color: rgb(9, 82, 151);
     padding: 2%;
     text-align: center;
 }
@@ -24,8 +25,8 @@
 }
 .partner-images img{
 height: 70px;
-    width: 6%;
-margin-left: 70px;
+    width: 8%;
+margin-left: 65px;
 }
 
 
@@ -38,7 +39,7 @@ footer{
     flex-wrap: wrap;
 }
 .footer-item{
-    width: 20%;
+    width: 33%;
     padding-left:4% ;
 }
 footer ul{
@@ -83,7 +84,13 @@ a{
     color: #fd2dec;
 }
 .social img{
-    width: 50%;
+    width: 35%;
+}
+.social a img{
+    width: auto;
+}
+.bottom-space{
+    margin-bottom: 30px;
 }
 
 /* Media queries*/
@@ -127,7 +134,16 @@ a{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+    /* */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5{
+    font-family: 'Montserrat', sans-serif; 
   }
 
   .home,

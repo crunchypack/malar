@@ -18,12 +18,12 @@ function App() {
       <ScrollToTop/>
         <Navbar />
         
-          <Route path="/" exact component={Home} />
-          <Route path="/kontakta-oss" component={Contact} />
-          <Route path="/vara-tjanster" component={Services} />
-          <Route path="/renoveringspaket" component={Packages} />
-          <Route path="/kvalitet-miljo" component={QualityAndEnv} />
-          <Route path="/om-oss" component={AboutUs} />
+          <Route path="/malaresset" exact component={Home} />
+          <Route path="/malaresset/kontakta-oss" component={Contact} />
+          <Route path="/malaresset/vara-tjanster" component={Services} />
+          <Route path="/malaresset/renoveringspaket" component={Packages} />
+          <Route path="/malaresset/kvalitet-miljo" component={QualityAndEnv} />
+          <Route path="/malaresset/om-oss" component={AboutUs} />
         
         <Partners />
         <Footer></Footer>
