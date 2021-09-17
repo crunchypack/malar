@@ -5,6 +5,7 @@ import maleri from "../images/maleriforetagen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import offerta from '../images/offertaIcon.png';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -34,8 +35,6 @@ class Footer extends React.Component {
         <div className="footer-item">
           <img src={logo} alt="Målaressets logga" />
           <p>Målaresset är företaget ni anlitar när jobbet måste bli bra.</p>
-        </div>
-        <div className="footer-item">
           <h4>Kontakt info</h4>
           <div>
             <ul>
@@ -54,6 +53,7 @@ class Footer extends React.Component {
             </ul>
           </div>
         </div>
+
         <div className="footer-item">
           <Form onSubmit={this.handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -98,14 +98,14 @@ class Footer extends React.Component {
           <h4>100% Nöjd Kund Garanti</h4>
           <img src={nojd} alt="nöjd kund logga" />
           <img src={maleri} alt="Måleriföretagen logga" />
-          <h4>Följ oss på sociala medier</h4>
+          <h4>Läs vad våra kunder säger om oss</h4>
           <a
-            href="https://facebook.com/error404officialteam/"
+            href="https://offerta.se/foretag/malaresset-i-goteborg-ab/#ratings"
             rel="noreferrer"
             target="_blank"
             className="facebook"
           >
-            <FontAwesomeIcon icon={["fab", "facebook"]} size="3x" />
+            <img src={offerta} alt="Icon offerta" className="img-fluid"/>
           </a>
           <a
             href="https://instagram.com/malaresset"

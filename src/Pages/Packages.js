@@ -53,6 +53,8 @@ function Packages() {
                 title="Brons"
                 cardText={bronsText}
                 lines={brons}
+                tillval="Målning av lister, karmar och foder"
+                tillBool="true"
                 variant="bronze"
                 textC="dark"
                 medal={bronzeMed}
@@ -64,6 +66,8 @@ function Packages() {
                 cardText={silverText}
                 lines={silver}
                 variant="silver"
+                tillval="Bredspackling av väggar"
+                tillBool="true"
                 textC="dark"
                 medal={silverMed}
               />

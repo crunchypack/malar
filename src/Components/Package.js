@@ -31,6 +31,14 @@ function Package(props) {
       <FontAwesomeIcon icon="check" /> {item}
     </ListGroupItem>
   ));
+  let tillval = "";
+  if(props.tillBool){
+    tillval = (<>
+      <ListGroupItem >Tillval:</ListGroupItem>
+    <ListGroupItem variant={props.variant}><FontAwesomeIcon icon="plus"/> {props.tillval}</ListGroupItem></>
+    )
+  }
+  
 
   const customStyles = {
     content: {
@@ -60,7 +68,7 @@ function Package(props) {
   }
   return (
     <React.Fragment>
-      <Card bg={props.variant} text={props.textC} className="h4 h-100">
+      <Card bg={props.variant} text={props.textC} className="h5 h-100">
         <Card.Body>
           <div className="IconContainer">
             <img src={props.medal} alt="medal" className='img-fluid'/>
@@ -70,6 +78,7 @@ function Package(props) {
         </Card.Body>
         <ListGroup className="listGroup" variant={props.variant}>
           {items}
+          {tillval}
           
         </ListGroup>
         

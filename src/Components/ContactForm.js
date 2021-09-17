@@ -140,7 +140,7 @@ class ContactForm extends React.Component {
             />
           </Form.Group>
           <Button variant="success" type="submit">
-            Submit
+            Skicka
           </Button>
           <div className={this.state.status}>{this.state.sent}</div>
           

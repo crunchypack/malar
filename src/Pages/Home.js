@@ -20,6 +20,7 @@ import metall from "../images/metall.jpg";
 import bronzeMed from "../images/bronze-medal.png";
 import silverMed from "../images/silver-medal.png";
 import goldMed from "../images/gold-medal.png";
+import malarRadio from "../Assets/Malar.wav";
 
 import rotavdrag from "../images/rotavdrag.png";
 import fastpris from "../images/fastpris.png";
@@ -111,6 +112,13 @@ const Home = () => {
           </div>
         </div>
       </Carousel>
+      <div className="container">
+      <audio controls src={malarRadio} className="w-100">
+      Your browser does not support the
+            <code>audio</code> element.
+      </audio>
+      </div>
+      
 
       <div className="home-info">
         <h2 className="info-child">Målaresset i Göteborg</h2>
@@ -175,6 +183,8 @@ const Home = () => {
               title="Brons"
               cardText={bronsText}
               lines={brons}
+              tillval = "Målning av lister, karmar och foder"
+              tillBool = "true"
               icon="thumbs-up"
               variant="bronze"
               textC="dark"
@@ -187,6 +197,8 @@ const Home = () => {
               cardText={silverText}
               lines={silver}
               icon="hand-scissors"
+              tillval="Bredspackling av väggar"
+              tillBool="true"
               variant="silver"
               textC="dark"
               medal={silverMed}

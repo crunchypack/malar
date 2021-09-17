@@ -57,6 +57,8 @@ class Services extends React.Component {
                 cardText={bronsText}
                 lines={brons}
                 icon="thumbs-up"
+                tillval="Målning av lister, karmar och foder"
+                tillBool="true"
                 variant="bronze"
                 textC="dark"
                 medal={bronzeMed}
@@ -68,6 +70,8 @@ class Services extends React.Component {
                 cardText={silverText}
                 lines={silver}
                 icon="hand-scissors"
+                tillval="Bredspackling av väggar"
+                tillBool="true"
                 variant="silver"
                 textC="dark"
                 medal={silverMed}
