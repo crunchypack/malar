@@ -70,7 +70,7 @@ class Services extends React.Component {
                 cardText={silverText}
                 lines={silver}
                 icon="hand-scissors"
-                tillval="Bredspackling av väggar"
+                tillval="Priming"
                 tillBool="true"
                 variant="silver"
                 textC="dark"

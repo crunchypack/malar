@@ -66,7 +66,7 @@ function Packages() {
                 cardText={silverText}
                 lines={silver}
                 variant="silver"
-                tillval="Bredspackling av väggar"
+                tillval="Priming"
                 tillBool="true"
                 textC="dark"
                 medal={silverMed}

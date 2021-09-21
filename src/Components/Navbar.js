@@ -12,7 +12,7 @@ function NavigeringsBar() {
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
-        if (window.innerWidth <= 960) {
+        if (window.innerWidth <= 1140) {
             setButton(false);
         } else {
             setButton(true);

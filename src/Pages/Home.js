@@ -7,7 +7,7 @@ import banner2 from "../images/banner2.jpg";
 import banner3 from "../images/banner3.jpg";
 import banner4 from "../images/banner4.jpg";
 import banner5 from "../images/banner5.jpg";
-import bild from "../images/bild.png";
+import bild from "../images/bild.jpg";
 import nojdkund from "../images/nojdkund.png";
 
 import tapeter from "../images/tapeter.jpg";
@@ -54,7 +54,7 @@ const Home = () => {
         autoPlay
         infiniteLoop
         interval="2000"
-        animationHandler="fade"
+        // animationHandler="fade"
         className="myCarousel"
       >
         <div>
@@ -74,9 +74,9 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div className="carousel-caption">
+           <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div>
+          </div> 
         </div>
 
         <div>
@@ -85,9 +85,9 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div className="carousel-caption">
+           <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div>
+          </div> 
         </div>
 
         <div>
@@ -96,9 +96,9 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-          <div className="carousel-caption">
+           <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div>
+          </div> 
         </div>
 
         <div>
@@ -109,7 +109,7 @@ const Home = () => {
           />
           <div className="carousel-caption">
           <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div>
+          </div> 
         </div>
       </Carousel>
       <div className="container">
@@ -121,9 +121,9 @@ const Home = () => {
       
 
       <div className="home-info">
-        <h2 className="info-child">Målaresset i Göteborg</h2>
+        <h2 className="info-child">Målaresset i Göteborg AB.<h3>Kakel, måleri och bygg i Göteborg</h3></h2>       
         <div className="info-child">
-          Målaresset är företaget ni anlitar när jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom måleri, plåt, snickeri, totalrenovering m.m. Vi riktar oss till:
+          Söker du målare i Göteborg? Målaresset är företaget ni anlitar när jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom måleri, kakel, plåt, snickeri, bygg m.m. Vi riktar oss till:
           <strong>
             <ul>
               <li> Privatkunder</li>
@@ -197,7 +197,7 @@ const Home = () => {
               cardText={silverText}
               lines={silver}
               icon="hand-scissors"
-              tillval="Bredspackling av väggar"
+              tillval="Priming"
               tillBool="true"
               variant="silver"
               textC="dark"
