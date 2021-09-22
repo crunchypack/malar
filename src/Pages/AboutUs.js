@@ -44,9 +44,9 @@ class AboutUs extends React.Component {
             img={aboutBanner}
           />
         </Container>
-        <Container fluid>
-          <Row className="justify-content-md-center bottom-space">
-            <Col md="auto">
+        <Container fluid="sm">
+          <Row xs={1} md={2} className="g-4">
+            <Col>
               <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
                 <Card.Img src={maleri} />
                 <Card.Body>
@@ -57,10 +57,9 @@ class AboutUs extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
-
-            <Col md="auto">
-              <Card style={{ width: "20rem"}} className="h-100 text-center border-0">
+              </Col>
+              <Col>
+              <Card style={{ width: "18rem"}} className="h-100 text-center border-0">
                 <Card.Img src={nojd} />
                 <Card.Body>
                   <Card.Text>
@@ -70,12 +69,13 @@ class AboutUs extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
-          </Row>
-          <Row className="justify-content-md-center d-flex ">
-            <Col md="auto">
-              <Card style={{ width: "20rem"  }} className="h-100 text-center border-0">
-                <Card.Img src={id06} />
+              </Col>
+              </Row>
+              <Row xs={1} md={2} sm={2} lg={3} className="g-4">
+              <Col>
+              
+              <Card style={{ width: "18rem"}} className="text-center border-0">
+                <Card.Img  src={id06} />
                 <Card.Body>
                   <Card.Text>
                     ID06-Systemet bidrar till att förenkla säkerhetsarbetet på
@@ -87,10 +87,9 @@ class AboutUs extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
-
-            <Col md="auto" >
-              <Card style={{ width: "20rem"}} className="h-100 text-center border-0">
+              </Col>
+              <Col>
+              <Card style={{ width: "18rem"}} className="text-center border-0">
                 <Card.Img src={malarna} />
                 <Card.Body>
                   <Card.Text>
@@ -99,9 +98,9 @@ class AboutUs extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
-            <Col md="auto">
-              <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
+              </Col>
+              <Col>
+              <Card style={{ width: "18rem"}}  className="text-center border-0">
                 <Card.Img src={mvk} />
                 <Card.Body>
                   <Card.Text>
@@ -110,8 +109,8 @@ class AboutUs extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
-          </Row>
+              </Col>
+        </Row>
         </Container>
       </React.Fragment>
     );
