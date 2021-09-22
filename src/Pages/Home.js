@@ -29,9 +29,12 @@ import Package from "../Components/Package";
 import { Col, Container, Row } from "react-bootstrap";
 
 const Home = () => {
-  let bronsText = "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
-  let silverText = "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
-  let guldText = "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
+  let bronsText =
+    "Målaressets Brons-paket är för dig som vill sätta din egna prägel på ditt hem genom en uppfräschning eller kulörbyte.";
+  let silverText =
+    "Målaressets Silver-paket är för dig som vill ha jämna, fina och fräscha väggar.";
+  let guldText =
+    "Målaressets Guld-paket är för dig som vill ha hela jobbet gjort från grunden för bästa möjliga resultat.";
   let brons = [
     "Spackling och lagning av mindre hål",
     "Målning av tak och väggar till fullgod täckning",
@@ -64,7 +67,16 @@ const Home = () => {
             style={{ height: "50vh", objectFit: "cover" }}
           />
           <div className="carousel-caption">
-          <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
+            <img
+              src={nojdkund}
+              alt="..."
+              style={{
+                height: "15vh",
+                width: "15vh",
+                marginRight: "120vh",
+                marginBottom: "20vh",
+              }}
+            />
           </div>
         </div>
 
@@ -74,9 +86,18 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-           <div className="carousel-caption">
-          <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div> 
+          <div className="carousel-caption">
+            <img
+              src={nojdkund}
+              alt="..."
+              style={{
+                height: "15vh",
+                width: "15vh",
+                marginRight: "120vh",
+                marginBottom: "20vh",
+              }}
+            />
+          </div>
         </div>
 
         <div>
@@ -85,9 +106,18 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-           <div className="carousel-caption">
-          <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div> 
+          <div className="carousel-caption">
+            <img
+              src={nojdkund}
+              alt="..."
+              style={{
+                height: "15vh",
+                width: "15vh",
+                marginRight: "120vh",
+                marginBottom: "20vh",
+              }}
+            />
+          </div>
         </div>
 
         <div>
@@ -96,9 +126,18 @@ const Home = () => {
             alt="banner"
             style={{ height: "50vh", objectFit: "cover" }}
           />
-           <div className="carousel-caption">
-          <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div> 
+          <div className="carousel-caption">
+            <img
+              src={nojdkund}
+              alt="..."
+              style={{
+                height: "15vh",
+                width: "15vh",
+                marginRight: "120vh",
+                marginBottom: "20vh",
+              }}
+            />
+          </div>
         </div>
 
         <div>
@@ -108,65 +147,77 @@ const Home = () => {
             style={{ height: "50vh", objectFit: "cover" }}
           />
           <div className="carousel-caption">
-          <img src={nojdkund} alt="..." style={{ height: "15vh", width: "15vh", marginRight: "120vh",marginBottom :"20vh" }} />
-          </div> 
+            <img
+              src={nojdkund}
+              alt="..."
+              style={{
+                height: "15vh",
+                width: "15vh",
+                marginRight: "120vh",
+                marginBottom: "20vh",
+              }}
+            />
+          </div>
         </div>
       </Carousel>
       <div className="container">
-      <audio controls src={malarRadio} className="w-100">
-      Your browser does not support the
-            <code>audio</code> element.
-      </audio>
+        <audio controls src={malarRadio} className="w-100">
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
       </div>
-      
 
       <div className="home-info">
-        <h2 className="info-child">Målaresset i Göteborg AB.<h3>Kakel, måleri och bygg i Göteborg</h3></h2>       
+        <h2 className="info-child">
+          Målaresset i Göteborg AB.<h3>Kakel, måleri och bygg i Göteborg</h3>
+        </h2>
         <div className="info-child">
-          Söker du målare i Göteborg? Målaresset är företaget ni anlitar när jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom måleri, kakel, plåt, snickeri, bygg m.m. Vi riktar oss till:
+          Söker du målare i Göteborg? Målaresset är företaget ni anlitar när
+          jobbet måste bli bra! Vi på Målaresset hjälper dig med allt inom
+          måleri, kakel, plåt, snickeri, bygg m.m. Vi riktar oss till:
           <strong>
             <ul>
               <li> Privatkunder</li>
               <li> Byggföretag</li>
               <li> Bostadsrättsföreningar</li>
-            </ul></strong>
-          Vi är yrkesmålare med många år i branschen och dokumenterade yrkesbevis.
-          Oavsett storlek på projekt så har vi som princip att alltid sätta kundens behov i centrum. God kommunikation med våra kunder är vår högsta prioritet då vi vill att våra kunder ska känna sig trygga när de anlitar Målaresset.
+            </ul>
+          </strong>
+          Vi är yrkesmålare med många år i branschen och dokumenterade
+          yrkesbevis. Oavsett storlek på projekt så har vi som princip att
+          alltid sätta kundens behov i centrum. God kommunikation med våra
+          kunder är vår högsta prioritet då vi vill att våra kunder ska känna
+          sig trygga när de anlitar Målaresset.
         </div>
         <img className="info-child" src={bild} alt="wet paint" />
       </div>
       <div className="home-success">
         <div className="success-child">
-
           <img src={fastpris} alt="logga" />
 
           <h3>Fast pris</h3>
           <p>
-            Skicka in en beskrivning på jobbet du vill ha utfört via
-            formuläret längst ner på sidan för att få en kostnadsfri offert.
+            Skicka in en beskrivning på jobbet du vill ha utfört via formuläret
+            längst ner på sidan för att få en kostnadsfri offert.
           </p>
         </div>
         <div className="success-child">
-
           <img src={nojdkund} alt="logga" />
 
           <h3>100 % Nöjd kund garanti</h3>
           <p>
             Vi har lång erfarenhet av målaryrket och utför våra uppdrag med en
-            hög standard. Därför ger vi två års garanti på du är nöjd med
-            utfört arbete.
+            hög standard. Därför ger vi två års garanti på du är nöjd med utfört
+            arbete.
           </p>
         </div>
         <div className="success-child">
-
           <img src={rotavdrag} alt="logga" />
 
           <h3>Rotavdrag</h3>
           <p>
             De tjänster vi erbjuder är giltiga för ROT-avdrag. ROT-avdraget
-            täcker arbetskostnader vid renovering och ombyggnation i ens
-            bostad. Använd ROT-avdraget och betala bara 70% av
-            arbetskostnaden.
+            täcker arbetskostnader vid renovering och ombyggnation i ens bostad.
+            Använd ROT-avdraget och betala bara 70% av arbetskostnaden.
           </p>
         </div>
       </div>
@@ -183,15 +234,15 @@ const Home = () => {
               title="Brons"
               cardText={bronsText}
               lines={brons}
-              tillval = "Målning av lister, karmar och foder"
-              tillBool = "true"
+              tillval="Målning av lister, karmar och foder"
+              tillBool="true"
               icon="thumbs-up"
               variant="bronze"
               textC="dark"
               medal={bronzeMed}
             />
           </Col>
-          <Col className="py-2 col-lg-4 col-sm-7" >
+          <Col className="py-2 col-lg-4 col-sm-7">
             <Package
               title="Silver"
               cardText={silverText}
@@ -217,65 +268,79 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <div className="home-services">
-        <h2 className="service-child">Våra Tjänster</h2>
-        <div className="service-child">
-          <Link to="/malaresset/vara-tjanster">
+      <h2 className="service-child">Våra Tjänster</h2>
+      <Row md={4} lg={6} sm={2} xs={1}>
+        <div className="col">
+          <div className="service-child">
+            <Link to="/malaresset/vara-tjanster">
+              <img src={spackle} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Totalentrepenad</h3>
+          </div>
+        </div>
+        <div className="col">
+          <div className="service-child">
+            <Link to="/malaresset/vara-tjanster">
+              <img src={kladd} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Invändigt</h3>
+          </div>
+        </div>
+        <div className="col">
+          <div className="service-child">
+            <Link to="/malaresset/vara-tjanster">
+              <img src={fasad} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Utvändigt</h3>
+          </div>
+        </div>
 
-            <img src={spackle} alt="tjanst-bild" />
-            <div className="service-middle">
-              <div className="text">Läs mer</div>
-            </div>
-          </Link>
-          <h3>Totalentrepenad</h3>
+        <div className="col">
+          <div className="service-child">
+            <Link to="/malaresset/vara-tjanster">
+              <img src={metall} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Plåt</h3>
+          </div>
         </div>
-        <div className="service-child">
-          <Link to="/malaresset/vara-tjanster">
-            <img src={kladd} alt="tjanst-bild" />
-            <div className="service-middle">
-              <div className="text">Läs mer</div>
-            </div>
-          </Link>
-          <h3>Invändigt</h3>
+
+        <div className="col">
+          <div className="service-child">
+            <Link to="/malaresset/vara-tjanster">
+              <img src={tapeter} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Tapetsering</h3>
+          </div>
         </div>
-        <div className="service-child">
-          <Link to="/malaresset/vara-tjanster">
-            <img src={fasad} alt="tjanst-bild" />
-            <div className="service-middle">
-              <div className="text">Läs mer</div>
-            </div>
-          </Link>
-          <h3>Utvändigt</h3>
+
+        <div className="col">
+          <div className="service-child">
+            <Link to="/malaresset/vara-tjanster">
+              <img src={window} alt="tjanst-bild" />
+              <div className="service-middle">
+                <div className="text">Läs mer</div>
+              </div>
+            </Link>
+            <h3>Fönster</h3>
+          </div>
         </div>
-        <div className="service-child">
-          <Link to="/malaresset/vara-tjanster">
-            <img src={metall} alt="tjanst-bild" />
-            <div className="service-middle">
-              <div className="text">Läs mer</div>
-            </div>
-          </Link>
-          <h3>Plåt</h3>
-        </div>
-        <div className="service-child">
-          <Link to="/malaresset/vara-tjanster">
-            <img src={tapeter} alt="tjanst-bild" />
-            <div className="service-middle">
-              <div className="text">Läs mer</div>
-            </div>
-          </Link>
-          <h3>Tapetsering</h3>
-        </div>
-        <div className="service-child" >
-          <Link to="/malaresset/vara-tjanster">
-            <img src={window} alt="tjanst-bild" />
-            <div className="service-middle">
-              <div className="text">Läs mer</div>
-            </div>
-          </Link>
-          <h3>Fönster</h3>
-        </div>
-      </div>
+      </Row>
     </div>
   );
-}
+};
 export default Home;

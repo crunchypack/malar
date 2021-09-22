@@ -19,11 +19,11 @@ class Contact extends React.Component {
                     <Col><ContactForm /></Col>
                 </Row>
                 <Row><Col> <h3>Vårt team </h3></Col></Row>
-                <Row>
-                    <Col><ContactCard img={obama} name='Patrik Gustavsson' text = 'VD'contact='Telefon: 0704-43 94 62' email='patrik@malaresset.se'/></Col>
-                    <Col><img src={patrick} alt="diploma" className="img-fluid"></img></Col>
-                    <Col><ContactCard img={shivan} name='Shivan Palany' text = 'Projektledare'contact='Telefon: 0768-74 10 22 ' email='shivan@malaresset.se'/></Col>
-                    <Col><img src={shiv} alt="diploma" className="img-fluid"></img></Col>
+                <Row md={2} >
+                    <Col ><ContactCard img={obama} name='Patrik Gustavsson' text = 'VD'contact='Telefon: 0704-43 94 62' email='patrik@malaresset.se'/></Col>
+                    <Col ><ContactCard img={patrick} border="border-0"/></Col>
+                    <Col ><ContactCard img={shivan} name='Shivan Palany' text = 'Projektledare'contact='Telefon: 0768-74 10 22 ' email='shivan@malaresset.se'/></Col>
+                    <Col ><ContactCard img={shiv}  border="border-0"/></Col>
                     
                 </Row>
                 <hr/>

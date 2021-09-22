@@ -75,7 +75,7 @@ class AboutUs extends React.Component {
           <Row className="justify-content-md-center d-flex ">
             <Col md="auto">
               <Card style={{ width: "20rem"  }} className="h-100 text-center border-0">
-                <Card.Img src={id06} style={{ margin:"auto" , height:"5vw"}}/>
+                <Card.Img src={id06} />
                 <Card.Body>
                   <Card.Text>
                     ID06-Systemet bidrar till att förenkla säkerhetsarbetet på
@@ -91,7 +91,7 @@ class AboutUs extends React.Component {
 
             <Col md="auto" >
               <Card style={{ width: "20rem"}} className="h-100 text-center border-0">
-                <Card.Img src={malarna} style={{margin:"auto" , height:"5vw"}}/>
+                <Card.Img src={malarna} />
                 <Card.Body>
                   <Card.Text>
                     Målaresset är fackligt anslutna och därmed tillämpas
@@ -102,7 +102,7 @@ class AboutUs extends React.Component {
             </Col>
             <Col md="auto">
               <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
-                <Card.Img src={mvk} style={{ margin:"auto", height:"5vw"}}/>
+                <Card.Img src={mvk} />
                 <Card.Body>
                   <Card.Text>
                     Målaressets hantverkare har genomfört en branchanpassad utbildning och

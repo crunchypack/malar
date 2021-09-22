@@ -6,7 +6,7 @@ class ContactCard extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem" }} className={this.props.border}>
           <Card.Img variant="top" src={this.props.img} />
           <Card.Body>
             <Card.Title>{this.props.name}</Card.Title>
