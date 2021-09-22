@@ -9,6 +9,7 @@ import malarna from "../images/malarna.png";
 import mvk from "../images/mvk.png";
 import maleri from "../images/maleriforetagen.png";
 import nojd from "../images/nojdkund.png";
+import auro from "../images/Auro.png";
 
 class AboutUs extends React.Component {
   render() {
@@ -28,6 +29,7 @@ class AboutUs extends React.Component {
           Malforetag={maleri}
           middle={true}
         />
+        
         <Container className="mainQ">
           <InfoMain
             orderText={{ order: 1 }}
@@ -44,10 +46,22 @@ class AboutUs extends React.Component {
             img={aboutBanner}
           />
         </Container>
-        <Container fluid="sm">
-          <Row xs={1} md={2} className="g-4">
+        <div class="container-fluid d-flex justify-content-center">
+        {/* <Container fluid="sm" >  */}
+          <Row xs={1} md={3} className="g-4" >
             <Col>
-              <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
+             <Card style={{ width: "14rem"}} className="h-100 text-center border-0">
+                <Card.Img src={nojd} />
+                <Card.Body>
+                  <Card.Text >
+                    Måleriföretagens medlemsföretag omfattas en extra garanti på
+                    två år av utfört måleriarbete. Det betyder att du kan vara
+                    trygg när du köper tjänster från oss.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Col>
+              <Col> <Card style={{ width: "18rem" }} className="h-100 text-center border-0">
                 <Card.Img src={maleri} />
                 <Card.Body>
                   <Card.Text>
@@ -57,28 +71,14 @@ class AboutUs extends React.Component {
                   </Card.Text>
                 </Card.Body>
               </Card>
+              
               </Col>
               <Col>
               <Card style={{ width: "18rem"}} className="h-100 text-center border-0">
-                <Card.Img src={nojd} />
+                <Card.Img src={id06} />
                 <Card.Body>
                   <Card.Text>
-                    Måleriföretagens medlemsföretag omfattas en extra garanti på
-                    två år av utfört måleriarbete. Det betyder att du kan vara
-                    trygg när du köper tjänster från oss.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-              </Col>
-              </Row>
-              <Row xs={1} md={2} sm={2} lg={3} className="g-4">
-              <Col>
-              
-              <Card style={{ width: "18rem"}} className="text-center border-0">
-                <Card.Img  src={id06} />
-                <Card.Body>
-                  <Card.Text>
-                    ID06-Systemet bidrar till att förenkla säkerhetsarbetet på
+                  ID06-Systemet bidrar till att förenkla säkerhetsarbetet på
                     arbetsplatsen. För ett effektivt fungerande
                     olycksförebyggande arbete är det av största vikt att känna
                     till och kontrollera vilka som vistas på arbetsplatsen,
@@ -88,30 +88,53 @@ class AboutUs extends React.Component {
                 </Card.Body>
               </Card>
               </Col>
+              </Row></div><div class="container-fluid d-flex justify-content-center">
+              <Row xs={1} md={2} sm={2} lg={3} className="g-4">
               <Col>
-              <Card style={{ width: "18rem"}} className="text-center border-0">
+              
+               <Card style={{ width: "11rem"}} className="text-center border-0">
+                <Card.Img  src={auro} />
+                {/* <Card.Body>
+                   <Card.Text>
+                    ID06-Systemet bidrar till att förenkla säkerhetsarbetet på
+                    arbetsplatsen. För ett effektivt fungerande
+                    olycksförebyggande arbete är det av största vikt att känna
+                    till och kontrollera vilka som vistas på arbetsplatsen,
+                    vilka arbeten som pågår och vilken säkerhetsinstruktion
+                    varje individ har fått.
+                  </Card.Text> 
+                </Card.Body>  */}
+              </Card>
+              </Col>
+              <Col>
+               <Card style={{ width: "11rem"}} className="text-center border-0">
                 <Card.Img src={malarna} />
-                <Card.Body>
-                  <Card.Text>
+                 {/* <Card.Body>
+                   <Card.Text>
                     Målaresset är fackligt anslutna och därmed tillämpas
                     kollektivavtal med avtalsenliga villkor och löner.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+                  </Card.Text> 
+                </Card.Body>  */}
+              </Card> 
+
               </Col>
               <Col>
-              <Card style={{ width: "18rem"}}  className="text-center border-0">
+
+
+              <Card style={{ width: "11rem"}}  className="text-center border-0">
                 <Card.Img src={mvk} />
-                <Card.Body>
-                  <Card.Text>
+                 {/* <Card.Body>
+                   <Card.Text>
                     Målaressets hantverkare har genomfört en branchanpassad utbildning och
                     är därmed behöriga våtrumsmålare.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+                  </Card.Text> 
+                </Card.Body> */}
+              </Card> 
               </Col>
-        </Row>
-        </Container>
+        </Row></div>
+         {/* </Container>  */}
+         
+
       </React.Fragment>
     );
   }

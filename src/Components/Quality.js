@@ -4,7 +4,7 @@ import nojd from "../images/nojdkund.png";
 import maleriforetagen from "../images/maleriforetagen.png";
 import bannerImg from "../images/quality.jpg";
 import pexels from '../images/pexels.jpg';
-import env from '../images/env.jpg';
+import env from '../images/enva.jpg';
 import { Container} from "react-bootstrap";
 import Banner from "./Banner";
 import InfoMain from "./InfoMain";

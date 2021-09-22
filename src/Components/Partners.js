@@ -16,8 +16,7 @@ class Partners extends React.Component{
                 <img src={caparol} alt='Caparol logga'/>                              
                 <img src={teknos} alt='Ljungdalhs Färg logga'/>
                 <img src={nordsjo} alt='Nordsjö logga'/>
-                </div>
-                
+                </div>                
             </section>
         )
     }
