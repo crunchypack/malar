@@ -39,7 +39,7 @@ class Footer extends React.Component {
           <div>
             <ul>
               <li>
-                Telefon: <span>0704-43 94 62</span>
+                Telefon: <span>031 - 22 77 99</span>
               </li>
               <li>
                 Mail{" "}

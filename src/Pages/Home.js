@@ -179,12 +179,13 @@ const Home = () => {
             <ul>
               <li> Privatkunder</li>
               <li> Byggföretag</li>
+              <li> Kommuner</li>
               <li> Bostadsrättsföreningar</li>
             </ul>
           </strong>
           Vi är yrkesmålare med många år i branschen och dokumenterade
-          yrkesbevis. Oavsett storlek på projekt så har vi som princip att
-          alltid sätta kundens behov i centrum. God kommunikation med våra
+          yrkesbevis. Oavsett storlek på projektet så har vi på Målaresset rätt kompentens att utföra projekt utefter kundens behov och önskemål.
+          Vi har som princip att alltid sätta kundens behov i centrum. God kommunikation med våra
           kunder är vår högsta prioritet då vi vill att våra kunder ska känna
           sig trygga när de anlitar Målaresset.
         </div>

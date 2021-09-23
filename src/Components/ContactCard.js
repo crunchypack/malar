@@ -14,7 +14,7 @@ class ContactCard extends React.Component {
               {this.props.text} <br/>
               {this.props.contact} <br/>
               <a href={"mailto:" + this.props.email}>{this.props.email}</a>
-              
+
             </Card.Text>
           </Card.Body>
         </Card>

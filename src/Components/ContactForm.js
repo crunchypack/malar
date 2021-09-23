@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-const{SENDGRID_API_KEY} =require('../sendgrid');
+//const{SENDGRID_API_KEY} =require('../sendgrid');
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -58,7 +58,7 @@ class ContactForm extends React.Component {
   handleFormSubmit(e) {
     //Code Goes Here
     const sgMail = require("@sendgrid/mail");
-    sgMail.setApiKey(SENDGRID_API_KEY);
+   // sgMail.setApiKey(SENDGRID_API_KEY);
      e.preventDefault();
     const msg = {
       to: "simon.wolf.lobo@gmail.com", // Change to your recipient
