@@ -121,6 +121,7 @@
       position: absolute;
       top: 0;
       left: 0;
+      margin-top: -11px;
       /* transform: translate(25%, 50%); */
     }
   

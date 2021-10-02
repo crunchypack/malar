@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import logo from '../images/logo.png'
+import logo from '../images/navLogo.png'
 import './NavigeringsBar.css';
 
 function NavigeringsBar() {

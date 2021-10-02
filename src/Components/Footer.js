@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../images/footLogo.png";
 import nojd from "../images/nojdkund.png";
 import maleri from "../images/maleriforetagen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,7 +20,7 @@ class Footer extends React.Component {
     });
   }
   handleSubmit(e) {
-    //Code Goes Here
+    //Code Goes Here 
     e.preventDefault();
     console.log(this.state);
     this.setState({

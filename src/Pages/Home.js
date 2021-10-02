@@ -169,7 +169,7 @@ const Home = () => {
 
       <div className="home-info">
         <h2 className="info-child">
-          Målaresset i Göteborg AB.<h3>Kakel, måleri och bygg i Göteborg</h3>
+          Målaresset i Göteborg AB.<h3>Måleri och Bygg i Göteborg</h3>
         </h2>
         <div className="info-child">
           Söker du målare i Göteborg? Målaresset är företaget ni anlitar när
@@ -184,7 +184,7 @@ const Home = () => {
             </ul>
           </strong>
           Vi är yrkesmålare med många år i branschen och dokumenterade
-          yrkesbevis. Oavsett storlek på projektet så har vi på Målaresset rätt kompentens att utföra projekt utefter kundens behov och önskemål.
+          yrkesbevis. Oavsett storlek på ditt projekt så har vi på Målaresset rätt kompentens att utföra alla projekt utefter kundens behov och önskemål.
           Vi har som princip att alltid sätta kundens behov i centrum. God kommunikation med våra
           kunder är vår högsta prioritet då vi vill att våra kunder ska känna
           sig trygga när de anlitar Målaresset.
