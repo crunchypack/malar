@@ -98,19 +98,20 @@ function Package(props) {
         <Button variant="danger" onClick={closeModal}>
           Stäng
         </Button>
-        <Form onSubmit={e =>{handleSubmit(e)}}>
+        <Form action="/package.php" method="post">
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <FloatingLabel
               controlId="floatingInput"
               label="Email address"
               className="mb-3"
             >
-              <Form.Control type="email" placeholder="name@example.com" value={Email} onChange={e=>setEmail(e.target.value)}/>
+              <Form.Control type="email" placeholder="name@example.com" name="email" value={Email} onChange={e=>setEmail(e.target.value)}/>
             </FloatingLabel>
             <FloatingLabel controlId="floatingSelect" label="Paket">
               <Form.Select
                 aria-label="Floating label select example"
                 defaultValue= {Package}
+                name= "package"
                 onChange={e=>setPackage(e.target.value)}
               >
                 <option value="Brons">Brons</option>
@@ -126,11 +127,12 @@ function Package(props) {
                 placeholder="Meddelande"
                 style={{ height: "100px" }}
                 value= {PackageMsg}
+                name="message"
                 onChange={e=>{setPackageMsg(e.target.value)}}
               />
             </FloatingLabel>
           </Form.Group>
-          <Button variant="success" type="submit">
+          <Button variant="success" type="submit" name="submit">
             Skicka
           </Button>
         </Form>

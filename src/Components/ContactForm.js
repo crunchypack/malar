@@ -97,7 +97,7 @@ class ContactForm extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Form className="shadow-none" onSubmit={this.handleFormSubmit}>
+        <Form className="shadow-none" action="/mailHandler.php" method="post">
           <h2> Kontakta oss!</h2>
 
           <Form.Text className="text-muted">
@@ -139,7 +139,7 @@ class ContactForm extends React.Component {
               onChange={this.handleFormChange}
             />
           </Form.Group>
-          <Button variant="success" type="submit">
+          <Button variant="success" type="submit" name="submit">
             Skicka
           </Button>
           <div className={this.state.status}>{this.state.sent}</div>

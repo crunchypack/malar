@@ -55,7 +55,7 @@ class Footer extends React.Component {
         </div>
 
         <div className="footer-item">
-          <Form onSubmit={this.handleSubmit}>
+          <Form action="/footerMail.php" method="post">
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 type="text"
@@ -88,7 +88,7 @@ class Footer extends React.Component {
                 value={this.state.footMsg}
                 onChange={this.handleChange}
               />
-              <Button className="mb-2" variant="success" type="submit">
+              <Button className="mb-2" variant="success" type="submit" name="submit">
                 Skicka
               </Button>
             </Form.Group>
