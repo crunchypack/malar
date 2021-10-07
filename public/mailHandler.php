@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $subject = "Kontakt formulär";
     $subject2 = "Målaresset kontakt formulär";
     $message = $first_name . " " . $phone_num . " meddelande:" . "\n\n" . $_POST['formMsg'];
-    $message2 = "Vi har fått följande meddelande och hör av oss så fort vi kan. \n\n" . $first_name . "\n\n" . $_POST['message'];
+    $message2 = "Vi har fått följande meddelande och hör av oss så fort vi kan. \n\nNamn: " . $first_name . "\n\nTel.:". $phone_num . "\n\n" . $_POST['formMsg'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;

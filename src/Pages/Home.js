@@ -273,7 +273,7 @@ const Home = () => {
       <Row md={4} lg={6} sm={2} xs={1}>
         <div className="col">
           <div className="service-child">
-            <Link to="/malaresset/vara-tjanster">
+            <Link to="/vara-tjanster">
               <img src={spackle} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -284,7 +284,7 @@ const Home = () => {
         </div>
         <div className="col">
           <div className="service-child">
-            <Link to="/malaresset/vara-tjanster">
+            <Link to="/vara-tjanster">
               <img src={kladd} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -295,7 +295,7 @@ const Home = () => {
         </div>
         <div className="col">
           <div className="service-child">
-            <Link to="/malaresset/vara-tjanster">
+            <Link to="/vara-tjanster">
               <img src={fasad} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -307,7 +307,7 @@ const Home = () => {
 
         <div className="col">
           <div className="service-child">
-            <Link to="/malaresset/vara-tjanster">
+            <Link to="/vara-tjanster">
               <img src={metall} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -319,7 +319,7 @@ const Home = () => {
 
         <div className="col">
           <div className="service-child">
-            <Link to="/malaresset/vara-tjanster">
+            <Link to="/vara-tjanster">
               <img src={tapeter} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
@@ -331,7 +331,7 @@ const Home = () => {
 
         <div className="col">
           <div className="service-child">
-            <Link to="/malaresset/vara-tjanster">
+            <Link to="/vara-tjanster">
               <img src={window} alt="tjanst-bild" />
               <div className="service-middle">
                 <div className="text">Läs mer</div>
