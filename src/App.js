@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import Home from "./Pages/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
@@ -14,7 +14,7 @@ import AboutUs from "./Pages/AboutUs";
 function App() {
   return (
     <div >
-      <BrowserRouter>
+      <HashRouter>
       <ScrollToTop/>
         <Navbar />
         
@@ -28,7 +28,7 @@ function App() {
         <Partners />
         <Footer></Footer>
        
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
