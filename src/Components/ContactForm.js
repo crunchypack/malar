@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-const{SENDGRID_API_KEY} =require('../sendgrid');
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -17,33 +16,8 @@ class ContactForm extends React.Component {
       sent:"Something went wrong please try again."
 
     };
-    this.formFiles = React.createRef();
-    this.handleFormChange = this.handleFormChange.bind(this);
-    this.handleFormSubmit = this.handleFormSubmit.bind(this);
-    this.handleFile = this.handleFile.bind(this);
+
   }
-  getBase64 = file => {
-    return new Promise(resolve => {
-      let fileInfo;
-      let baseURL = "";
-      // Make new FileReader
-      let reader = new FileReader();
-
-      // Convert the file to base64 text
-      reader.readAsDataURL(file);
-
-      // on reader load somthing...
-      reader.onload = () => {
-        // Make a fileInfo Object
-        console.log("Called", reader);
-        baseURL = reader.result;
-        console.log(baseURL);
-        resolve(baseURL);
-        this.setState({files:baseURL})
-      };
-      console.log(fileInfo);
-    });
-  };
   handleFormChange(e) {
     this.setState({
       [e.target.name]: e.target.value,
@@ -55,45 +29,7 @@ class ContactForm extends React.Component {
 
 
   }
-  handleFormSubmit(e) {
-    //Code Goes Here
-    const sgMail = require("@sendgrid/mail");
-    sgMail.setApiKey(SENDGRID_API_KEY);
-     e.preventDefault();
-    const msg = {
-      to: "simon.wolf.lobo@gmail.com", // Change to your recipient
-      from: "simon.lobo@hotmail.se", // Change to your verified sender
-      subject: "Kontaktformulär Målaresset",
-      html:'<html><body><p> From:' +
-      this.state.formName +
-      '</p><p>Email: ' +
-      this.state.formEmail +
-      "</p><p>Tel.:" +
-      this.state.formPhone +
-      "</p>Meddelande: " +
-      this.state.formMsg+'</p></body></html>',
-      
-    };
-    sgMail
-      .send(msg)
-      .then(() => {
-        this.setState({status:"text-success h3",sent:"Message sent"})
-      })
-      .catch((error) => {
-        this.setState({status:"text-danger h3"});
-        console.error(error);
-      });
-    console.log(this.state);
-
-    this.setState({
-      formName: "",
-      formEmail: "",
-      formPhone: "",
-      formMsg: "",
-      files: null,
-    });
-    this.formFiles.current.value = "";
-  }
+ 
   render() {
     return (
       <React.Fragment>

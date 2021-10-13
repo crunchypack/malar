@@ -18,7 +18,7 @@ class AboutUs extends React.Component {
       "Målaresset är ett svenskt måleriföretag som erbjuder tjänster inom måleri och bygg i Göteborg med omnejd. Vår resa började i slutet på 00-talet då jag Patrik Gustavsson grundade måleri företaget Målaresset i Göteborg AB. "+
       "Genom åren har jag införskaffat mig en bred kompetens inom bygg och måleribranschen. Målaresset har dom senaste åren expanderat och anställt kompetenta ledare och medarbetare."+
       " Vi har även utöktat vårt kontaktnät med hantverkarföretag inom Göteborg för att kunna erbjuda våra kunder helhetslösningar inom bygg och måleri."+
-      "Vår målsätting är enkel: Att leverera måleri och byggtjänster med hög kvalitet. Vi strävar alltid efter att du som kund ska känna vårt engemang i ditt projekt. Vi håller vad vi lovat och respekterar överenskomna deadlines.";
+      " Vår målsätting är enkel: Att leverera måleri och byggtjänster med hög kvalitet. Vi strävar alltid efter att du som kund ska känna vårt engemang i ditt projekt. Vi håller vad vi lovat och respekterar överenskomna deadlines.";
     let title = "Målaresset i Göteborg";
     return (
       <React.Fragment>

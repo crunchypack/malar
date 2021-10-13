@@ -17,14 +17,6 @@ function Package(props) {
   const [Email, setEmail] = useState("");
   const [Package, setPackage] = useState(props.title);
 
-  const handleSubmit = (e) =>{
-    // code goes here
-    e.preventDefault();
-    console.log("Email:" + Email);
-    console.log("Package:" + Package);
-    console.log("Message:" + PackageMsg);
-    closeModal();
-  }
   
   let items = props.lines.map((item, index) => (
     <ListGroupItem variant={props.variant} key={index}>
