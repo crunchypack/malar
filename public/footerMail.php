@@ -8,8 +8,12 @@ if(isset($_POST['submit'])){
     $message = $first_name . " meddelande:" . "\n\n" . $_POST['footMsg'];
     $message2 = "Vi har fått följande meddelande och hör av oss så fort vi kan. \n\n" . $first_name . "\n\n" . $_POST['footMsg'];
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
+    $headers = "From:" . $from ."\r\n".
+    "MIME-Version: 1.0" . "\r\n" .
+    "Content-type: text/html; charset=UTF-8" . "\r\n";
+    $headers2 = "From:" . $to."\r\n".
+    "MIME-Version: 1.0" . "\r\n" .
+    "Content-type: text/html; charset=UTF-8" . "\r\n";
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     //echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";

@@ -97,7 +97,7 @@ function Package(props) {
               label="Email address"
               className="mb-3"
             >
-              <Form.Control type="email" placeholder="name@example.com" name="email" value={Email} onChange={e=>setEmail(e.target.value)}/>
+              <Form.Control type="email" placeholder="name@example.com" name="email" value={Email} onChange={e=>setEmail(e.target.value)} required/>
             </FloatingLabel>
             <FloatingLabel controlId="floatingSelect" label="Paket">
               <Form.Select

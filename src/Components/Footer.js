@@ -71,6 +71,7 @@ class Footer extends React.Component {
                 name="footEmail"
                 value={this.state.footEmail}
                 onChange={this.handleChange}
+                required
               />
               <Form.Text className="text-muted">
                 Vi kommer inte dela ut din personliga information.

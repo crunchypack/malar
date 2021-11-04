@@ -47,23 +47,20 @@ class ContactForm extends React.Component {
             <Form.Control
               type="text"
               name="formName"
-              value={this.state.formName}
-              onChange={this.handleFormChange}
+              placeholder="Förnamn Efternamn"
             />
             <Form.Label>E-mail</Form.Label>
             <Form.Control
               type="email"
               name="formEmail"
-              value={this.state.formEmail}
-              onChange={this.handleFormChange}
+              placeholder="Name@email.com"
               required
             />
             <Form.Label>Telefon</Form.Label>
             <Form.Control
               type="tel"
               name="formPhone"
-              value={this.state.formPhone}
-              onChange={this.handleFormChange}
+
               required
             />
             <Form.Label>Meddelande</Form.Label>
@@ -71,8 +68,7 @@ class ContactForm extends React.Component {
               as="textarea"
               rows={4}
               name="formMsg"
-              value={this.state.formMsg}
-              onChange={this.handleFormChange}
+
             />
           </Form.Group>
           <Button variant="success" type="submit" name="submit">
